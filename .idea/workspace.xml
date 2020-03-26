@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="" />
+    <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ANOTHER_ONE.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_apk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/download_apk.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/play_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/play_store_links.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YzKzfAk6xqeGBCvtMKX9jlWxSl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +26,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -41,11 +55,21 @@
       <option name="presentableId" value="Default" />
       <updated>1583940246349</updated>
       <workItem from="1583940248743" duration="2410000" />
-      <workItem from="1584116537787" duration="9517000" />
+      <workItem from="1584116537787" duration="10295000" />
+      <workItem from="1584632721000" duration="893000" />
+      <workItem from="1585070911102" duration="1018000" />
+      <workItem from="1585072156168" duration="23586000" />
+      <workItem from="1585177694136" duration="573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="141" key="SettingsEditor" timestamp="1585083513073">
+      <screen x="0" y="23" width="1680" height="959" />
+    </state>
+    <state x="341" y="141" key="SettingsEditor/0.23.1680.959/-133.-1057.1920.1057@0.23.1680.959" timestamp="1585083513073" />
   </component>
 </project>

@@ -6,7 +6,6 @@ require 'watir'
 require 'rubygems'
 require 'fileutils'
 require 'nokogiri'
-require 'pry'
 require 'open-uri'
 
 class DownloadApk
