@@ -1,0 +1,21 @@
+package = 'com.ibm.events.android.atlantaunited'
+scheme = '@string/VENUENEXT_TEAM_DEEP_LINK_SCHEME'
+scheme = '@string/VENUENEXT_DEEP_LINK_SCHEME'
+scheme = '@string/ROVER_URL_SCHEME'
+host = '@string/ROVER_ASSOCIATED_DOMAIN'
+scheme = 'http'
+host = '@string/ROVER_ASSOCIATED_DOMAIN'
+scheme = 'https'
+host = '@string/expappSubdomain'
+path = '/app/deeplink'
+scheme = 'https'
+host = '*'
+scheme = '@string/ALLIANCE_INTERNAL_URL_SCHEME'
+scheme = 'tagmanager.c.com.ibm.events.android.atlantaunited'
+
+Host [1,2,3,4,5]
+schemes [1,2,3]
+path [1,2,3,4,5,6,7,9,10,11,12]
+
+host1 scheme1 path1
+host1 scheme1 path2

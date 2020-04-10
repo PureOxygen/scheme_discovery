@@ -1,0 +1,10 @@
+package: com.herzick.houseparty
+host: open
+scheme: houseparty
+scheme: tl-c8630578
+scheme: @string/fb_login_protocol_scheme
+host: instabug-disclaimer.com
+scheme: instabug-bug
+iOS: tl-c8630578
+iOS: houseparty
+iOS: fb510755359124304

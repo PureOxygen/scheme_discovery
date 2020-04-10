@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ANOTHER_ONE.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guess_links.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheme_archive/Banco.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheme_archive/kitchen-kettle-village_0.8.apk.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheme_archive/nordstrom.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheme_archive/selfridges.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheme_archive/visible-phone-service_1.3.11.apk.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scheme_guess.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ANOTHER_ONE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zurich_Risk_Advisor_v3.5.2.5957_apkpure.com.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/com.facebook.katana.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/android_scheme_discovery.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download_apk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/download_apk.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ios_scheme_discovery.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/play_store_links.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +37,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Ruby" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scheme_archive" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.git/scheme_archive" />
+      <recent name="$PROJECT_DIR$/scheme_data" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,7 +75,13 @@
       <workItem from="1584632721000" duration="893000" />
       <workItem from="1585070911102" duration="1018000" />
       <workItem from="1585072156168" duration="23586000" />
-      <workItem from="1585177694136" duration="573000" />
+      <workItem from="1585177694136" duration="19474000" />
+      <workItem from="1585420713706" duration="651000" />
+      <workItem from="1585579026080" duration="3206000" />
+      <workItem from="1586189956897" duration="470000" />
+      <workItem from="1586193815281" duration="390000" />
+      <workItem from="1586196279914" duration="561000" />
+      <workItem from="1586200318871" duration="50892000" />
     </task>
     <servers />
   </component>
@@ -67,9 +89,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="141" key="SettingsEditor" timestamp="1585083513073">
-      <screen x="0" y="23" width="1680" height="959" />
+    <state x="257" y="-927" key="SettingsEditor" timestamp="1586449441459">
+      <screen x="-133" y="-1057" width="1920" height="1057" />
     </state>
     <state x="341" y="141" key="SettingsEditor/0.23.1680.959/-133.-1057.1920.1057@0.23.1680.959" timestamp="1585083513073" />
+    <state x="257" y="-927" key="SettingsEditor/0.23.1680.967/-133.-1057.1920.1057@-133.-1057.1920.1057" timestamp="1586449441459" />
   </component>
 </project>
