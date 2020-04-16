@@ -1,0 +1,6 @@
+package = 'nl.code14.whereat'
+host = 'payment-return'
+scheme = 'mollie-app'
+host = '@string/whereAtHost'
+scheme = '@string/whereAtScheme'
+scheme = 'fb271294519944015'

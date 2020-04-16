@@ -1,0 +1,4 @@
+package = 'com.surepathmobile.quesada'
+host = ''
+scheme = 'ReUphqkbp'
+scheme = '@string/fb_login_protocol_scheme'

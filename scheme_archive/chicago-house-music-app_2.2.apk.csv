@@ -1,0 +1,19 @@
+package = 'com.goodbarber.housemusicapp'
+scheme = '@string/deep_link_custom_scheme'
+host = '@string/app_domain'
+scheme = 'https'
+host = '@string/secondary_app_domain'
+scheme = 'https'
+host = '@string/app_domain'
+scheme = 'http'
+host = '@string/secondary_app_domain'
+scheme = 'http'
+host = 'callback'
+scheme = 'goodbarberv2-oauth-twitter'
+iOS: twitterkit-vwiGxkiRkvL71iM6XlttFEWwv
+
+iOS: housemusicapp
+
+iOS: comapphousemusicapp
+
+iOS: fb217234745847398

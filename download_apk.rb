@@ -1,4 +1,6 @@
-# ruby -r "./download_apk.rb" -e "DownloadApk.new.get_apk()"
+# TO DOWNLOAD APK'S FOR REGRESSION TESTING USE THE DOWNLOADER IN `sheme_discovery/regression_tests`
+# TO DOWNLOAD ANY APK IN THE play_store_links.csv
+# ruby -r "./download_apk.rb" -e "DownloadApk.new.download_apk_from_csv()"
 
 require 'mechanize'
 require 'webdrivers'
@@ -10,24 +12,36 @@ require 'open-uri'
 
 class DownloadApk
 
-  def initiliaze
+  def download_apk(store_link)
+
   end
 
-  def get_apk
+  def download_apk_from_csv
+    @download_count = 0
     File.open("play_store_links.csv","r").readlines.each do |line|
-      @download_link = line.gsub(/\n/,'')
-      prefix = @download_link.split('.com').last
-      reg_link = "https://www.apkpure.com#{prefix}"
-      doc = Nokogiri::HTML(open(reg_link))
-      href = doc.css('.da').to_s.split('href="').last.split('">').first
-      link = "https://www.apkpure.com#{href}"
-      browser = Watir::Browser.new :chrome
-      browser.goto(link)
-      sleep 2
-    rescue OpenURI::HTTPError => e
-      if e.message == '404 Not Found' || e.message == '410 Gone'
-        next
+      google_play_link = line.split(/\n/).first
+      package_name = google_play_link.split('id=').last.split('&').first
+      options = Selenium::WebDriver::Chrome::Options.new
+      #options.add_argument('--headless')
+      browser = Selenium::WebDriver.for :chrome, options: options
+      download_link = "https://apkcombo.com/apk-downloader/?device=&arch=&android=&q=#{package_name}"
+      browser.get download_link
+      sleep(2)
+      browser.find_element(class: '_center').click
+      sleep(3)
+      @download_count += 1
+    end
+
+    until @download_count == 0
+      Dir.chdir("/Users/ericmckinney/downloads")
+      new_apps = Dir['*'].sort_by{ |f| File.mtime(f) }.last(@download_count)
+      new_apps.each do |a|
+
+        FileUtils.mv("/Users/ericmckinney/downloads/#{a}","/Users/ericmckinney/desktop/android-apps/#{a}")
+
+        @download_count -= 1
       end
     end
+    sleep(1500)
   end
 end

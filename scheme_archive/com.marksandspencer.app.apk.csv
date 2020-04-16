@@ -1,0 +1,9 @@
+package: com.marksandspencer.app
+scheme: mandsapp
+host: mandsapp.onelink.me
+pathPrefix: /256943915
+scheme: https
+host: go.onelink.me
+pathPrefix: /256943915
+scheme: https
+iOS: mandsapp
