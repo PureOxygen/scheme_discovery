@@ -1,4 +1,6 @@
-# ruby -r "./download_apk.rb" -e "DownloadApk.new.download_apk()"
+# TO DOWNLOAD APK'S FOR REGRESSION TESTING USE THE DOWNLOADER IN `sheme_discovery/regression_tests`
+# TO DOWNLOAD ANY APK IN THE play_store_links.csv
+# ruby -r "./download_apk.rb" -e "DownloadApk.new.download_apk_from_csv()"
 
 require 'mechanize'
 require 'webdrivers'
@@ -10,12 +12,11 @@ require 'open-uri'
 
 class DownloadApk
 
-  def initiliaze
+  def download_apk(store_link)
 
   end
 
-
-  def download_apk
+  def download_apk_from_csv
     @download_count = 0
     File.open("play_store_links.csv","r").readlines.each do |line|
       google_play_link = line.split(/\n/).first
@@ -41,5 +42,6 @@ class DownloadApk
         @download_count -= 1
       end
     end
+    sleep(1500)
   end
 end

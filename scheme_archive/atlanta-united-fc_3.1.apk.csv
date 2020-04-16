@@ -12,10 +12,5 @@ scheme = 'https'
 host = '*'
 scheme = '@string/ALLIANCE_INTERNAL_URL_SCHEME'
 scheme = 'tagmanager.c.com.ibm.events.android.atlantaunited'
-
-Host [1,2,3,4,5]
-schemes [1,2,3]
-path [1,2,3,4,5,6,7,9,10,11,12]
-
-host1 scheme1 path1
-host1 scheme1 path2
+iOS: atlanta-united-fr
+iOS: rv-united

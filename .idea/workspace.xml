@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/guess_links.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/Banco.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/kitchen-kettle-village_0.8.apk.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/nordstrom.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/selfridges.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/visible-phone-service_1.3.11.apk.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_guess.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/app_store_links.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/check_diff.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/diffs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/download_updated_apps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/new_versions.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/old_versions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ANOTHER_ONE.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zurich_Risk_Advisor_v3.5.2.5957_apkpure.com.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/com.facebook.katana.apk.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/android_scheme_discovery.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/download_apk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/download_apk.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guess_links.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guess_links.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ios_scheme_discovery.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/play_store_links.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/*IOS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_data/*IOS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/atlanta-united-fc_3.1.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/atlanta-united-fc_3.1.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/chicago-house-music-app_2.2.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/chicago-house-music-app_2.2.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/jtv-go_2.4.1.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/jtv-go_2.4.1.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/wp.wattpad.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/wp.wattpad.apk.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Ruby" />
   </component>
@@ -81,7 +85,8 @@
       <workItem from="1586189956897" duration="470000" />
       <workItem from="1586193815281" duration="390000" />
       <workItem from="1586196279914" duration="561000" />
-      <workItem from="1586200318871" duration="50892000" />
+      <workItem from="1586200318871" duration="75415000" />
+      <workItem from="1586974998946" duration="2257000" />
     </task>
     <servers />
   </component>

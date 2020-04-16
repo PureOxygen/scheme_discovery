@@ -5,3 +5,4 @@ scheme = 'http'
 host = '@string/app_host'
 path = '/app-product'
 scheme = 'https'
+iOS = NO SCHEMES

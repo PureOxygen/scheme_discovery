@@ -22,7 +22,7 @@ class AndroidSchemeDiscovery
     locate_apk
     scrape
     add_to_new_csv
-    run_ios_script
+    #run_ios_script
   end
 
   def check_for_android_zips
