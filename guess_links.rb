@@ -18,12 +18,14 @@ class GuessLinks
     @package = []
     @scheme = []
     @host = []
-    @path = []
+    @path = ['/']
     @ios = []
+    @csv_array = []
   end
 
   def execute
     Dir.foreach("./scheme_data") do |f|
+      @csv_name = f
       next if f == '.' or f == '..' or f.include? '*IOS'
       CSV.foreach("./scheme_data/#{f}") do |row|
         if row.to_s.include? "package"
@@ -32,12 +34,13 @@ class GuessLinks
           @scheme << row[0].split(/= /).last
         elsif row.to_s.include? "host"
           @host << row[0].split(/= /).last
-        elsif row.to_s.include? "pathPattern"
+        elsif row.to_s.include? "path"
           @path << row[0].split(/= /).last
         elsif row.to_s.include? "iOS"
           @ios << row[0].split(/= /).last
         end
       end
+
       @package = @package.uniq
       @scheme = @scheme.uniq
       @host = @host.uniq
@@ -45,41 +48,42 @@ class GuessLinks
       @ios = @ios.uniq
       @index = 0
 
-      @host.product(@path).each do |combo|
-        binding.irb
-        host = combo[0].gsub('\'','')
-        path = combo[1].gsub('\'','')
-        package = @package[0].gsub('\'','')
-        @scheme.count
-        # Get a count of how many schemes in array
-        # Index through each scheme for every loop
-        # @scheme[0] - first loop
-        # @scheme[1] - second loop
-        # @scheme[2] - until length of scheme index
-        #
-        #
-        binding.irb
-        scheme = @scheme[@index+1] unless @index >= @index.count
-        for s in (0...@scheme.size)
+      @scheme.each do |scheme|
+        scheme = scheme.gsub('\'','')
+        @host.product(@path).each do |combo|
+          host = combo[0].gsub('\'','')
+          path = combo[1].gsub('\'','')
+          package = @package[0].gsub('\'','')
+          scheme1 = "intent://#{host}#{path}#Intent;package=#{package};scheme=#{scheme};end"
+          scheme2 = "intent://#Intent;package=#{package};scheme=#{host}:/#{path};end"
+          #scheme3 = "intent://#Intent;package=#{package};scheme=#{iOS}://#{pathPrefix};end"
+          #scheme4 = "intent://#{pathPrefix}#Intent;package=#{package};scheme=#{iOS};end"
+          puts "#{scheme1}"
+          puts "#################"
+          puts "#{scheme2}"
+          puts ""
+          puts "####################################"
+          @csv_array << scheme1
+          @csv_array << scheme2
         end
       end
 
-      puts "intent://#{combo[0]}#{combo[1]}#Intent;package=#{package};scheme=#{@scheme};end"
+    end
+    add_to_csv
+    clear_csv
+  end
 
-      binding.irb
-
-
-
-      # @scheme.product(@host)
-
-      generate_guesses
-
-      binding.irb
-
+  def add_to_csv
+    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery")
+    @full_path = "./scheme_data/#{@csv_name}"
+    File.open("#{@full_path}", "a") do |f|
+      @csv_array.each do |row|
+        f.puts row
+      end
     end
   end
 
-  def generate_guesses
-
+  def clear_csv
+    @csv_array.clear
   end
 end

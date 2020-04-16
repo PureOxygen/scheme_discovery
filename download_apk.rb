@@ -18,6 +18,7 @@ class DownloadApk
 
   def download_apk_from_csv
     @download_count = 0
+    begin
     File.open("play_store_links.csv","r").readlines.each do |line|
       google_play_link = line.split(/\n/).first
       package_name = google_play_link.split('id=').last.split('&').first
@@ -42,6 +43,11 @@ class DownloadApk
         @download_count -= 1
       end
     end
-    sleep(1500)
+    sleep(120)
+    rescue => e
+      puts "#"*100
+      puts "Error finding CFBundleURLTypes in  Info.plist: #{e}"
+      puts "#"*100
+    end
   end
 end
