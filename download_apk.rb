@@ -1,5 +1,6 @@
 # TO DOWNLOAD APK'S FOR REGRESSION TESTING USE THE DOWNLOADER IN `sheme_discovery/regression_tests`
 # TO DOWNLOAD ANY APK IN THE play_store_links.csv
+#
 # ruby -r "./download_apk.rb" -e "DownloadApk.new.download_apk_from_csv()"
 
 require 'mechanize'
@@ -27,10 +28,15 @@ class DownloadApk
       browser = Selenium::WebDriver.for :chrome, options: options
       download_link = "https://apkcombo.com/apk-downloader/?device=&arch=&android=&q=#{package_name}"
       browser.get download_link
-      sleep(2)
+      sleep(5)
       browser.find_element(class: '_center').click
       sleep(3)
       @download_count += 1
+    end
+    rescue => e
+      puts "#"*100
+      puts "Error not available on this site for download #{e}"
+      puts "#"*100
     end
 
     until @download_count == 0
@@ -43,11 +49,6 @@ class DownloadApk
         @download_count -= 1
       end
     end
-    sleep(120)
-    rescue => e
-      puts "#"*100
-      puts "Error finding CFBundleURLTypes in  Info.plist: #{e}"
-      puts "#"*100
-    end
+    sleep(15)
   end
 end

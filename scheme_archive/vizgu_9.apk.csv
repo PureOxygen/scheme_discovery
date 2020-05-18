@@ -1,0 +1,391 @@
+package = 'com.vizgu.vizguapp'
+path = '/oauth2redirect'
+host = 'com.vizgu.vizguapp'
+host = 'com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i'
+scheme = 'vizguapp'
+scheme = 'https'
+host = 'vizguapp.page.link'
+pathPrefix = '/'
+scheme = 'https'
+
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+*IOS 1* 
+ intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+############################################################################
+intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=vizguapp;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end

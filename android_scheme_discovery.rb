@@ -1,7 +1,5 @@
 # ruby -r "./android_scheme_discovery.rb" -e "AndroidSchemeDiscovery.new.execute()"
-#
-# TODO: If scheme is already present in array, don't include. AKA get rid of dupes that hit the csv
-#
+
 
 require 'rubygems'
 require 'fileutils'

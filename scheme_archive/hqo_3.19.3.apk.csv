@@ -1,0 +1,34 @@
+package = 'com.hqo'
+scheme = 'hqo'
+host = 'hqoapp.app.link'
+scheme = 'https'
+scheme = 'example'
+scheme = '@string/networkreaderscheme'
+*TYPICAL INTENT* 
+ intent://hqoapp.app.link/#Intent;package=com.hqo;scheme=hqo;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqoapp.app.link/#Intent;package=com.hqo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqoapp.app.link/#Intent;package=com.hqo;scheme=example;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqoapp.app.link/#Intent;package=com.hqo;scheme=@string/networkreaderscheme;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link://;end
+*IOS 1* 
+ intent://#Intent;package=com.hqo;scheme=hqoapp.app.link;end
+############################################################################

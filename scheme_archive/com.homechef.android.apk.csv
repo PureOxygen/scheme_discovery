@@ -1,0 +1,7 @@
+package = 'com.homechef.android'
+scheme = 'exp8854f577fea441f8a1d145b6c277768e'
+path = 'oauthredirect'
+scheme = 'com.homechef.android'
+scheme = 'expo.modules.payments.stripe.27c67e6c-89fa-4e76-91a4-13b8aac4cc07'
+scheme = 'abi31_0_0.expo.modules.payments.stripe'
+scheme = 'example'

@@ -1,0 +1,384 @@
+package = 'com.global.foodpanda.android'
+host = 'www.foodora.com'
+scheme = 'http'
+host = 'foodpanda.page.link'
+scheme = 'https'
+scheme = 'foodpanda'
+host = '*'
+pathPattern = '/cashier-payment'
+scheme = 'foodpanda-cashier'
+scheme = 'tagmanager.c.com.global.foodpanda.android'
+
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda-cashier;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda-cashier;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda-cashier;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=tagmanager.c.com.global.foodpanda.android;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=tagmanager.c.com.global.foodpanda.android;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=tagmanager.c.com.global.foodpanda.android;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda-cashier;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda-cashier;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda-cashier;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=tagmanager.c.com.global.foodpanda.android;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodpanda.page.link/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=tagmanager.c.com.global.foodpanda.android;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=foodpanda.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=com.global.foodpanda.android;scheme=tagmanager.c.com.global.foodpanda.android;end
+*IOS 1* 
+ intent://#Intent;package=com.global.foodpanda.android;scheme=*://cashier-payment;end
+*IOS 1* 
+ intent://cashier-payment#Intent;package=com.global.foodpanda.android;scheme=*;end
+############################################################################
+
+intent://foodpanda.page.link/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://*/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.vizgu.vizguapp/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://vizguapp.page.link/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://www.foodora.com/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://www.foodora.com/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://www.foodora.com/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://www.foodora.com/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://foodpanda.page.link/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://*/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda-cashier;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=*;end
+
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.vizgu.vizguapp/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.vizgu.vizguapp/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.vizgu.vizguapp/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=com.vizgu.vizguapp;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=com.googleusercontent.apps.278084480914-eragmakil57d32o26n0eccugkl672i0i;end
+intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://vizguapp.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://vizguapp.page.link/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://vizguapp.page.link/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=vizguapp.page.link;end
+intent://www.foodora.com/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://www.foodora.com/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://www.foodora.com/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://www.foodora.com/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=www.foodora.com;end
+intent://foodpanda.page.link/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://foodpanda.page.link/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=foodpanda.page.link;end
+intent://*/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://oauth2redirect;end
+intent://oauth2redirect#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*;end
+intent://*/cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=tagmanager.c.com.global.foodpanda.android;end
+intent://#Intent;package=com.vizgu.vizguapp;scheme=*://cashier-payment;end
+intent://cashier-payment#Intent;package=com.vizgu.vizguapp;scheme=*;end

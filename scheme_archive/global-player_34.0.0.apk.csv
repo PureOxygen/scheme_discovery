@@ -1,0 +1,8 @@
+package = 'com.global.player'
+scheme = 'http'
+scheme = 'https'
+host = 'www.globalplayer.com'
+pathPrefix = '/podcasts/'
+pathPrefix = '/playlists/'
+host = 'gsapi'
+scheme = 'com.global.player'

@@ -14,10 +14,11 @@ class CheckDiff
   end
 
   def execute
-    #locate_apk
-    #shuffle_files
+    locate_apk
+    shuffle_files
     scrape
     get_diff
+    #remove_empty_csv
   end
 
   def locate_apk
@@ -43,12 +44,12 @@ class CheckDiff
   end
 
   def shuffle_files
-    Dir.chdir("/Users/ericmckinney/desktop/apk_check")
+    Dir.chdir("/Users/ericmckinney/desktop/scheme_discovery")
     FileUtils.rm_rf('./regression_tests/old_apk')
 
-    FileUtils.mv("./new_apk","./old_apk")
+    FileUtils.mv("./regression_tests/new_apk","./regression_tests/old_apk")
 
-    Dir.mkdir("./new_apk")
+    Dir.mkdir("./regression_tests/new_apk")
   end
 
   def scrape
@@ -114,6 +115,8 @@ class CheckDiff
   end
 
   def get_diff
+    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests")
+
     Dir.foreach("./new_apk") do |new|
       next if new == '.' or new == '..'
       @match_name = new[0..9]
@@ -127,6 +130,19 @@ class CheckDiff
             csv.puts Diffy::Diff.new("./old_apk/#{old}","./new_apk/#{new}", :source => 'files')
           end
         end
+      end
+    end
+  end
+
+  def remove_empty_csv
+    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests")
+    Dir.foreach("./apk_diffs") do |csv|
+      next if csv == '.' or csv == '..'
+      binding.irb
+      path = Dir.pwd + "/" + csv
+      first_row = CSV.foreach(csv).take(5)
+      if first_row == [[]]
+        FileUtils.remove_dir(path)
       end
     end
   end

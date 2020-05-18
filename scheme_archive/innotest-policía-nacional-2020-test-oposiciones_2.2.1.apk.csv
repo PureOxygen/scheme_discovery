@@ -1,0 +1,6 @@
+package = 'innotest.policianacional'
+scheme = '@string/fb_login_protocol_scheme'
+host = 'cct.innotest.policianacional'
+scheme = 'fbconnect'
+iOS = 'fb487938781926266'
+iOS = 'com.googleusercontent.apps.628686478584-dvisbldd36bkkfit4tof5ek2m680sou6'

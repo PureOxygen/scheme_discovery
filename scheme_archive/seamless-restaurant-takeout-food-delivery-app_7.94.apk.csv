@@ -1,0 +1,77 @@
+package = 'com.seamlessweb.android.view'
+scheme = '@string/deep_link_scheme'
+scheme = '@string/deep_link_scheme_secure'
+host = '@string/deep_link_host'
+host = '@string/deep_link_host_subdomain'
+host = '@string/deep_link_host_button'
+pathPattern = '@string/deep_link_url_path_restaurant'
+pathPattern = '@string/deep_link_url_path_restaurants'
+pathPattern = '@string/deep_link_url_path_order_online'
+pathPattern = '@string/deep_link_url_path_menu'
+pathPattern = '@string/deep_link_url_path_order_history'
+pathPattern = '@string/deep_link_url_path_orders_scheduled'
+pathPattern = '@string/deep_link_url_path_order_status'
+path = '@string/deep_link_url_path_favorites'
+pathPattern = '@string/deep_link_url_path_favorite'
+path = '@string/deep_link_url_path_refer_a_friend'
+path = '@string/deep_link_url_path_scheduled_orders'
+pathPattern = '@string/deep_link_url_path_promo_code'
+pathPattern = '@string/deep_link_url_path_giftcard_activate'
+pathPattern = '@string/deep_link_url_path_donate_the_change_apply'
+pathPattern = '@string/deep_link_url_path_weblets'
+pathPattern = '@string/deep_link_url_path_affiliates'
+pathPattern = '@string/deep_link_url_path_seo_cuisine'
+pathPattern = '@string/deep_link_url_path_seo_cuisine_alternate'
+path = '@string/deep_link_url_path_seo_near_me'
+path = '@string/deep_link_url_path_search'
+path = '@string/deep_link_url_path_perks'
+path = '@string/deep_link_url_path_perks_earn'
+path = '@string/deep_link_url_path_lets_eat'
+path = '@string/deep_link_url_path_plus'
+path = '@string/deep_link_url_path_plus_purchase'
+path = '@string/deep_link_url_path_base'
+scheme = '@string/deep_link_scheme'
+scheme = '@string/deep_link_scheme_secure'
+host = '@string/deep_link_host_appboy'
+pathPattern = '@string/deep_link_url_path_appboy'
+scheme = '@string/deep_link_scheme'
+scheme = '@string/deep_link_scheme_secure'
+host = '@string/deep_link_host_responsys'
+pathPattern = '@string/deep_link_url_path_responsys'
+pathPattern = '@string/deep_link_url_path_responsys_alternate'
+scheme = '@string/deep_link_brand_scheme'
+scheme = '@string/deep_link_scheme'
+scheme = '@string/deep_link_scheme_secure'
+host = '@string/deep_link_host_branch'
+host = '@string/deep_link_host_branch_alternate'
+pathPattern = '@string/deep_link_url_path_branch'
+scheme = '@string/taplytics_url_scheme'
+scheme = 'com.seamlessweb.android.view.braintree'
+scheme = 'grubhubapp'
+scheme = 'tagmanager.c.com.seamlessweb.android.view'
+
+Seamless_7.77.1.ipa
+iOS = 'com.seamless.Seamless.payments'
+
+Seamless_7.77.1.ipa
+iOS = 'fb1095270040617275'
+
+Seamless_7.77.1.ipa
+iOS = 'seamlessipad'
+
+iOS = 'seamlessapp'
+
+Seamless_7.77.1.ipa
+iOS = 'com.seamlessweb.aramarkCustomer.payments'
+
+Seamless_7.77.1.ipa
+iOS = 'tl-49ab85c6'
+
+Seamless_7.77.1.ipa
+iOS = 'tl-38ebe5b9'
+
+Seamless_7.77.1.ipa
+iOS = 'com.googleusercontent.apps.693792776793-ha8dv7dpkoau9ims9m8v27u7h45fcu99'
+
+Seamless_7.77.1.ipa
+iOS = 'com.googleusercontent.apps.890931348469-en8ht0kqub7imtqh09u18i2r4ivmbrp5'

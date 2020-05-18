@@ -1,0 +1,6 @@
+package = 'nl.etos.mijnetos'
+scheme = 'mijnetos1'
+host = ' '
+pathPrefix = '/'
+scheme = ' '
+scheme = 'mijnetos'

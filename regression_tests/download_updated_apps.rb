@@ -31,6 +31,8 @@ class DownloadUpdatedApps
     File.rename("./regression_tests/new_versions.csv", "./regression_tests/old_versions.csv")
   end
 
+  #This is just gathering and comparing the apps version data. Not to be confused with the compare of the apps manifest itself - check_diff.rb
+
   def move_new_to_old
     FileUtils.rm_rf("/Users/ericmckinney/desktop/android-regression/*old")
     FileUtils.mv("/Users/ericmckinney/desktop/android-regression/*new","/Users/ericmckinney/desktop/android-regression/*old")
@@ -55,7 +57,7 @@ class DownloadUpdatedApps
   end
 
   def add_to_csv
-    File.open("./regression_tests/new_versions.csv", "w") do |csv|
+    File.open("./regression_tests/new_versions.csv", "wb") do |csv|
       @version_array.each do |line|
         csv.puts "#{line[0]},#{line[1]},#{line[2]}"
       end
@@ -64,7 +66,7 @@ class DownloadUpdatedApps
 
   def compare_csv
     FileUtils.identical?('./regression_tests/old_versions.csv','./regression_tests/new_versions.csv')
-    File.open("./regression_tests/diffs.csv", "w") do |csv|
+    File.open("./regression_tests/update_diffs.csv", "w") do |csv|
       csv.puts Diffy::Diff.new('./regression_tests/old_versions.csv', './regression_tests/new_versions.csv', :source => 'files')
     end
   end
@@ -86,6 +88,7 @@ class DownloadUpdatedApps
         @download_count += 1
       #end
     end
+    sleep(15)
     until @download_count == 0
       Dir.chdir("/Users/ericmckinney/downloads")
       new_apps = Dir['*'].sort_by{ |f| File.mtime(f) }.last(@download_count)

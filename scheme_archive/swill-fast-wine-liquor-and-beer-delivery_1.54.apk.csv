@@ -1,0 +1,3 @@
+package = 'com.swillio.android.swill'
+host = 'open'
+scheme = 'swill'

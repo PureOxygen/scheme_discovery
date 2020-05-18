@@ -1,0 +1,177 @@
+package = 'com.mercatustechnologies.brookshires'
+scheme = 'brookshires'
+host = ' '
+pathPrefix = '/'
+scheme = ' '
+scheme = 'message'
+host = 'cct.com.mercatustechnologies.brookshires'
+scheme = 'fbconnect'
+
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=brookshires;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=brookshires;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=message;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=message;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=brookshires;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=brookshires;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=message;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=message;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=brookshires;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=brookshires;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=message;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=message;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.mercatustechnologies.brookshires;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.mercatustechnologies.brookshires/#Intent;package=com.mercatustechnologies.brookshires;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires://;end
+*IOS 1* 
+ intent://#Intent;package=com.mercatustechnologies.brookshires;scheme=cct.com.mercatustechnologies.brookshires;end
+############################################################################

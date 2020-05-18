@@ -1,5 +1,3 @@
-# ruby ./ios_scheme_discovery.rb Ancestry 11.4.1
-#
 # TODO: The Android script will call this script. This script needs to take in an argument of the csv name and as it scans for csv's it knows which one to put the data in.
 
 # ruby -r "./ios_scheme_discovery.rb" -e "IosSchemeDiscovery.new.execute()"

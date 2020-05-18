@@ -1,0 +1,2 @@
+package = 'com.paradigm.texaschicken'
+scheme = '@string/fb_login_protocol_scheme'
