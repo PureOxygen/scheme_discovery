@@ -1,0 +1,2 @@
+package = 'com.ucab.user'
+scheme = '@string/facebook_login_protocol_scheme'

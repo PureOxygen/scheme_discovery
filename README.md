@@ -14,3 +14,12 @@ hand downloaded.
 
 <h2>scheme_discovery</h2>
 -Used to scrape iOS .ipa app files and return keywords used in schemes. 
+
+
+In order to run the scripts, you must download and install apktool.
+
+The docs for apktool are bad. Use this: http://macappstore.org/apktool/
+
+You can find the official website here: https://ibotpeaches.github.io/Apktool/
+
+ 

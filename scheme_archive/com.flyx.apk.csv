@@ -1,0 +1,8 @@
+package = 'com.flyx'
+scheme = 'androidexample'
+host = 'weflyx.app.link'
+scheme = 'https'
+host = 'weflyx-alternate.app.link'
+scheme = 'https'
+host = 'com.flyx'
+scheme = 'amzn'

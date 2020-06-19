@@ -1,6 +1,5 @@
 # ruby -r "./android_scheme_discovery.rb" -e "AndroidSchemeDiscovery.new.execute()"
 
-
 require 'rubygems'
 require 'fileutils'
 require 'nokogiri'
@@ -12,7 +11,7 @@ require './ios_scheme_discovery.rb'
 class AndroidSchemeDiscovery
 
   def initialize
-    @apk_path = ("/Users/ericmckinney/desktop/android-apps")
+    @apk_path = ("/Users/ericmckinney/desktop/scheme_discovery/android-apps")
   end
 
   def execute

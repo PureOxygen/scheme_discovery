@@ -59,7 +59,7 @@ class GuessLinks
           package = @package[0].gsub('\'','')
           scheme1 = "*TYPICAL INTENT* \n intent://#{host}#{path}#Intent;package=#{package};scheme=#{scheme};end"
           scheme2 = "*IOS 1* \n intent://#Intent;package=#{package};scheme=#{host}:/#{path};end"
-          scheme3 = "*IOS 1* \n intent:/#{path}#Intent;package=#{package};scheme=#{host};end"
+          scheme3 = "*IOS 2* \n intent:/#{path}#Intent;package=#{package};scheme=#{host};end"
           @csv_array << scheme1
           @csv_array << scheme2
           @csv_array << scheme3
