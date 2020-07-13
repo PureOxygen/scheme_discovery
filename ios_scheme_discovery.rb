@@ -9,12 +9,9 @@ require 'CSV'
 
 class IosSchemeDiscovery
 
-  def initialize
-    #@csv = csv
-    @ios_path = ("/Users/ericmckinney/desktop/ios-apps")
-  end
 
   def execute
+    @ios_path = ("/Users/ericmckinney/desktop/scheme_discovery/ios-apps")
     scrape
   end
 

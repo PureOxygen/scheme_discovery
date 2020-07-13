@@ -1,0 +1,411 @@
+package = 'com.lululemon.shop'
+host = 'click.e.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'fr.shop.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'fr.stage.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'info.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'lululemon.app.link'
+pathPrefix = '/'
+scheme = 'http'
+host = 'lululemon.test-app.link'
+pathPrefix = '/'
+scheme = 'http'
+host = 'shop.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'shop-stage2.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'stage.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'whatwelove.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'whatwelove-test.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'www.lululemon.com'
+pathPrefix = '/'
+scheme = 'http'
+host = 'click.e.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'fr.shop.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'fr.stage.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'info.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'lululemon.app.link'
+pathPrefix = '/'
+scheme = 'https'
+host = 'lululemon.test-app.link'
+pathPrefix = '/'
+scheme = 'https'
+host = 'shop.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'shop-stage2.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'stage.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'whatwelove.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'whatwelove-test.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'www.lululemon.com'
+pathPrefix = '/'
+scheme = 'https'
+scheme = '@string/branch_scheme'
+scheme = 'com.lululemon.shop.braintree'
+*TYPICAL INTENT* 
+ intent://click.e.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://info.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.app.link/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.test-app.link/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop-stage2.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove-test.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.lululemon.com/#Intent;package=com.lululemon.shop;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.e.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://info.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.app.link/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.test-app.link/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop-stage2.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove-test.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.lululemon.com/#Intent;package=com.lululemon.shop;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.e.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://info.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.app.link/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.test-app.link/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop-stage2.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove-test.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.lululemon.com/#Intent;package=com.lululemon.shop;scheme=@string/branch_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.e.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=click.e.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fr.stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=fr.stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://info.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=info.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.app.link/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lululemon.test-app.link/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=lululemon.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://shop-stage2.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=shop-stage2.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://stage.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=stage.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://whatwelove-test.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=whatwelove-test.lululemon.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.lululemon.com/#Intent;package=com.lululemon.shop;scheme=com.lululemon.shop.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lululemon.shop;scheme=www.lululemon.com;end
+############################################################################

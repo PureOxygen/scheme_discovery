@@ -1,0 +1,7 @@
+package = 'com.fountain.smb.android'
+host = 'app.fountain.com'
+scheme = 'https'
+host = 'link.fountain.com'
+scheme = 'http'
+host = 'link.fountain.com'
+scheme = 'https'

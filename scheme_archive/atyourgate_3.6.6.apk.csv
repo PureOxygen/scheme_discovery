@@ -1,0 +1,4 @@
+package = 'com.fansentertainment.atyourgate'
+scheme = 'atyourgate-mobile-ordering'
+host = '@string/fe_deepLink_host'
+scheme = '@string/fe_deepLink_scheme'

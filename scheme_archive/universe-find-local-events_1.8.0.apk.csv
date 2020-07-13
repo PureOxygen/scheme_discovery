@@ -1,0 +1,8 @@
+package = 'com.uniiverse.app'
+scheme = '@string/fb_login_protocol_scheme'
+host = 'uniiverse.com'
+scheme = 'https'
+pathPrefix = '/listings/'
+host = 'uniiverse.com'
+scheme = 'https'
+pathPrefix = '/tickets/'

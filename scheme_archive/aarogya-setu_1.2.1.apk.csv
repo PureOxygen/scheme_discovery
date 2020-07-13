@@ -1,0 +1,4 @@
+package = 'nic.goi.aarogyasetu'
+host = 'www.aarogyasetu.gov.in'
+pathPrefix = '/app'
+scheme = 'https'

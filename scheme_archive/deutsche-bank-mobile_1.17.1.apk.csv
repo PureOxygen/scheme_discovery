@@ -1,0 +1,2 @@
+package = 'com.db.pwcc.dbmobile'
+scheme = '@string/release_verification_scheme'

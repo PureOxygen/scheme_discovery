@@ -1,0 +1,2 @@
+package = 'com.iconology.comics'
+scheme = '@string/app_config_uri_scheme'

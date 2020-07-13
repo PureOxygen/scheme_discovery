@@ -1,0 +1,8 @@
+package = 'com.clearme.clearapp'
+host = 'auth'
+scheme = 'clear-partner'
+path = '@string/enroll_path'
+scheme = '@string/scheme'
+host = '@string/branch_host'
+pathPrefix = '/'
+scheme = 'https'

@@ -1,0 +1,6 @@
+package = 'uk.harrods.magazine'
+scheme = 'swphardeb'
+scheme = 'swphar'
+scheme = 'harrodsapp'
+scheme = 'harrodsapp://secret?dev2server'
+scheme = 'harrodsapp://secret?dev3server'

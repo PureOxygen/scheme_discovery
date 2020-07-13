@@ -1,0 +1,3 @@
+package = 'com.digitalpharmacist.a1559060014'
+host = '@string/branch_link_domain'
+scheme = 'https'

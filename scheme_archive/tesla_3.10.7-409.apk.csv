@@ -1,0 +1,7 @@
+package = 'com.teslamotors.tesla'
+scheme = 'teslamotors'
+scheme = 'content'
+host = 'com.android.calendar'
+mimeType = 'text/plain'
+mimeType = 'text/x-vcard'
+scheme = 'geo'

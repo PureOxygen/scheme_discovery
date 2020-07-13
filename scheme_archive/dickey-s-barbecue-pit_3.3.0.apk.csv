@@ -1,0 +1,3 @@
+package = 'com.olodickeysapp'
+host = 'cct.com.olodickeysapp'
+scheme = 'fbconnect'

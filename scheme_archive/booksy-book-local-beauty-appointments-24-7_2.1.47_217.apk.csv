@@ -1,0 +1,4 @@
+package = 'net.booksy.customer'
+scheme = 'booksy'
+path = '/'
+scheme = 'booksy'

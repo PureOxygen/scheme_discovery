@@ -1,0 +1,2 @@
+package = 'com.getpenfold.app'
+scheme = '@string/custom_url_scheme'

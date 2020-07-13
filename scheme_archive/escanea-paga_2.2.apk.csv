@@ -1,0 +1,4 @@
+package = 'com.bild.scanandgochile'
+host = 'oradb.kdi.cl'
+pathPattern = '/syl/deepAndroid2.php'
+scheme = 'http'

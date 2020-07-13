@@ -1,5 +1,0 @@
-package = 'jp.naver.line.android.clova_search'
-host= 'cic-client.clova.ai'
-pathPrefix= '/login/line/redirect_uri/'
-scheme= 'clovaoauth'
-scheme= 'https'

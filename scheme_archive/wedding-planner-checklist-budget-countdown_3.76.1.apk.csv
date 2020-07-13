@@ -1,0 +1,246 @@
+package = 'com.xogrp.planner'
+scheme = '@string/taplytics_url_scheme'
+host = '@string/branch_io_app_links'
+scheme = 'https'
+host = '@string/branch_io_app_alternate_links'
+scheme = 'https'
+host = '@string/branch_io_email_domain'
+scheme = 'http'
+host = '@string/branch_io_domain_cloud_mail'
+pathPrefix = '/u'
+scheme = 'https'
+host = '@string/branch_io_domain_click_mail'
+pathPrefix = '/u'
+scheme = 'https'
+host = '@string/branch_io_domain_view_mail'
+pathPrefix = '/u'
+scheme = 'https'
+host = '@string/branch_io_domain_image_mail'
+pathPrefix = '/u'
+scheme = 'https'
+host = 'open'
+scheme = '@string/branch_io_url_scheme'
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_links/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_alternate_links/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_email_domain/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_cloud_mail/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_click_mail/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_view_mail/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_image_mail/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/u#Intent;package=com.xogrp.planner;scheme=@string/taplytics_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=open://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_links/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_alternate_links/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_email_domain/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_cloud_mail/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_click_mail/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_view_mail/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_image_mail/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/u#Intent;package=com.xogrp.planner;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=open://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_links/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_alternate_links/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_email_domain/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_cloud_mail/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_click_mail/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_view_mail/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_image_mail/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/u#Intent;package=com.xogrp.planner;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=open://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_links/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_app_alternate_links/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_app_alternate_links;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_email_domain/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_email_domain;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_cloud_mail/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_cloud_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_click_mail/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_click_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_view_mail/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_view_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/branch_io_domain_image_mail/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_domain_image_mail;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/u#Intent;package=com.xogrp.planner;scheme=@string/branch_io_url_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.xogrp.planner;scheme=open://u;end
+*IOS 2* 
+ intent://u#Intent;package=com.xogrp.planner;scheme=open;end
+############################################################################

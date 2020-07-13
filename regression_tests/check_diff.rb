@@ -10,16 +10,19 @@ require 'diffy'
 class CheckDiff
 
   def initialize
+    @apps = []
     @apk_path = ("/Users/ericmckinney/desktop/android-regression/*new")
   end
 
   def execute
     locate_apk
+    get_updated_apps
     shuffle_files
-    scrape
+    scrape # also runs scrap_manifest and add_to_csv
     get_diff
-    #remove_empty_csv
   end
+
+  # Finds the file and converts it to a .apk using extract_zip IF it is a .zip file
 
   def locate_apk
     Dir.chdir(@apk_path)
@@ -43,22 +46,45 @@ class CheckDiff
     end
   end
 
+  # This removes the csv file from old if it is new. It also moves new to old and replaces new with the newest scraped version.
+
   def shuffle_files
+    #TODO: I need to change this to only move if the new app has been downloaded
+    @apps.each do |a|
+      if File.exist?("./regression_tests/old_apk/" + a + ".csv")
+        FileUtils.rm_rf('./regression_tests/old_apk/' + a + ".csv")
+        FileUtils.mv("./regression_tests/new_apk/" + a + ".csv","./regression_tests/old_apk/" + a + ".csv")
+      elsif File.exist?("./regression_tests/new_apk/" + a + ".csv")
+        FileUtils.mv("./regression_tests/new_apk/" + a + ".csv","./regression_tests/old_apk/" + a + ".csv")
+      end
+    end
+  end
+
+  # This creates an array of only the app-names for apps that have been updated
+
+  def get_updated_apps
     Dir.chdir("/Users/ericmckinney/desktop/scheme_discovery")
-    FileUtils.rm_rf('./regression_tests/old_apk')
-
-    FileUtils.mv("./regression_tests/new_apk","./regression_tests/old_apk")
-
-    Dir.mkdir("./regression_tests/new_apk")
+    File.open("./regression_tests/update_diffs.csv","r").readlines.each do |app|
+      @app = app unless app  == nil
+      if app[0].include?('+')
+        @app_name = @app.split('+').last.split(',').first.gsub(' ','')
+        @apps << @app_name
+      end
+    end
   end
 
   def scrape
     begin
       Dir.chdir(@apk_path)
       Dir.foreach(@apk_path) do |folder|
+        # This checks if the app matches the result of get_updated_apps - if not, the app has not been updated, so it won't get scraped
+
+      next unless @apps.any? { |w| folder.include?(w)
+        @apk_name = w
+        }
         next unless folder.include? '.apk'
 
-        @apk_name = folder
+
         Dir.chdir(@apk_path)
 
         system "apktool d #{@apk_path}/#{@apk_name} -f"
@@ -75,14 +101,10 @@ class CheckDiff
 
   def scrape_manifest
     manifest_file_name = "#{@apk_path}/#{@apk_name}".gsub(".apk","")
-
     Dir.chdir(manifest_file_name)
-
     doc = Nokogiri.parse(File.read("AndroidManifest.xml"))
     filterData = "intent-filter.data."
-
     @csv_array = []
-
     package_name = doc.search("manifest").each do |i|
       i.each do |att_name, att_value|
         if att_name.include? "package"
@@ -119,30 +141,20 @@ class CheckDiff
 
     Dir.foreach("./new_apk") do |new|
       next if new == '.' or new == '..'
-      @match_name = new[0..9]
+
+      # TODO: Match on new name - all names should now be the same.
+      binding.irb
+      @match_name = new[0..6]
 
       Dir.foreach("./old_apk") do |old|
         next if old == '.' or old == '..'
-
-        if old.include? @match_name
-          FileUtils.identical?("./old_apk/#{old}","./new_apk/#{new}")
-          File.open("./apk_diffs/#{new}", "wb") do |csv|
-            csv.puts Diffy::Diff.new("./old_apk/#{old}","./new_apk/#{new}", :source => 'files')
+        binding.irb
+        if old.include? @match_name && !FileUtils.identical?("./old_apk/#{old}","./new_apk/#{new}")
+          File.open("./apk_diffs/" + new, "wb") do |csv|
+            csv.puts Diffy::Diff.new("./old_apk/" + old,"./new_apk/" + new, :source => 'files')
           end
+          else puts "This is a new app - no older version to compare with."
         end
-      end
-    end
-  end
-
-  def remove_empty_csv
-    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests")
-    Dir.foreach("./apk_diffs") do |csv|
-      next if csv == '.' or csv == '..'
-      binding.irb
-      path = Dir.pwd + "/" + csv
-      first_row = CSV.foreach(csv).take(5)
-      if first_row == [[]]
-        FileUtils.remove_dir(path)
       end
     end
   end
