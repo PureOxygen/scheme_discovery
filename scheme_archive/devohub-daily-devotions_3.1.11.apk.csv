@@ -1,0 +1,11 @@
+package = 'com.lifeway.devohub'
+host = 'devohub.lifeway.com'
+path = '/'
+scheme = 'http'
+*TYPICAL INTENT* 
+ intent://devohub.lifeway.com/#Intent;package=com.lifeway.devohub;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.lifeway.devohub;scheme=devohub.lifeway.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.lifeway.devohub;scheme=devohub.lifeway.com;end
+############################################################################

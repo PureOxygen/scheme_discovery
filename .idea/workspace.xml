@@ -2,127 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/master_script.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/avon-brochure_2.3.21.apk.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web_keyword_scraper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/get_android_manifest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/get_android_manifest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/download_all_apps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/android_scheme_discovery.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download_apk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/download_apk.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guess_links.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guess_links.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/ios_scheme_discovery.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/play_store_links.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/amazon-shopping-search-find-ship-and-save_20.7.0.100.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/amazon-shopping-search-find-ship-and-save_20.8.0.100.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/bloops_dynamic_sdk.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/bloops_dynamic_sdk.config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.airbnb.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.alibaba.aliexpresshd.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.apple.android.music.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.ebay.mobile.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.jetsmarter.SmartJets.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.jibjab.android.messages.fbmessenger.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.linkedin.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.meetup.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.netflix.mediaclient.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.pinterest.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.snapchat.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.spotify.music.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.thehomedepot.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.tripadvisor.tripadvisor.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.vkontakte.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/com.zhiliaoapp.musically.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/config.en.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/config.xxhdpi.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/config.xxxhdpi.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/df_photomovie.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/etsy-buy-custom-handmade-and-unique-goods_5.48.0.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/etsy-buy-custom-handmade-and-unique-goods_5.49.2.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/etsy-handmade-vintage-goods_5.47.0.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/hulu-stream-tv-shows-hit-movies-series-more_3.71.0.308530.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/hulu-stream-tv-shows-hit-movies-series-more_3.73.0.308630.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/hulu-stream-tv-shows-watch-the-latest-movies_3.73.0.308630.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/hulu-stream-tv-shows-watch-the-latest-movies_3.74.0.308670.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/instagram_141.0.0.32.118.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/line-free-calls-messages_9.10.2.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/pinterest_7.43.0.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/vk-—-live-chatting-free-calls_6.1.1.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/walmart-shopping-grocery_20.16.1.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/walmart-shopping-grocery_20.19.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/youtube_14.43.55.apk.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/regression_tests/app_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/app_store_links.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/check_diff.rb" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/check_diff.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/diffs.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/regression_tests/download_updated_apps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/download_updated_apps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/bloops_dynamic_sdk.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/bloops_dynamic_sdk.config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/chat_data.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/chatroom_background_effect.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/clova_search.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/clova_search.config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.airbnb.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.alibaba.aliexpresshd.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.ebay.mobile.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.jetsmarter.SmartJets.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.jibjab.android.messages.fbmessenger.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.linkedin.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.meetup.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.netflix.mediaclient.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.snapchat.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.spotify.music.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.thehomedepot.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.tripadvisor.tripadvisor.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/com.vkontakte.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/config.en.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/config.xxhdpi.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/ekyc.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/ekyc.config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/etsy-buy-custom-handmade-and-unique-goods_5.49.2.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/general_storage_settings_implementation.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/hulu-stream-tv-shows-watch-the-latest-movies_3.74.0.308670.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/instagram_141.0.0.32.118.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/jp.naver.line.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/pinterest_7.43.0.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/registration.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/twitter_8.44.0-release.00.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/walmart-shopping-grocery_20.19.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_apk/youtube_14.43.55.apk.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/regression_tests/new_versions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/new_versions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/amazon-shopping-search-find-ship-and-save_20.8.0.100.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/apple-music_2.7.2.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/bloops_dynamic_sdk.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/bloops_dynamic_sdk.config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.airbnb.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.alibaba.aliexpresshd.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.ebay.mobile.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.jetsmarter.SmartJets.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.jibjab.android.messages.fbmessenger.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.linkedin.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.meetup.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.netflix.mediaclient.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.snapchat.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.spotify.music.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.thehomedepot.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.tripadvisor.tripadvisor.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/com.vkontakte.android.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/config.arm64_v8a.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/config.en.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/config.xxhdpi.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/etsy-buy-custom-handmade-and-unique-goods_5.48.0.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/hulu-stream-tv-shows-watch-the-latest-movies_3.73.0.308630.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/instagram_139.0.0.33.121.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/line-free-calls-messages_9.10.2.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/pinterest_7.43.0.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/twitter_7.93.4-release.05.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/walmart-shopping-grocery_20.16.1.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_apk/youtube_14.43.55.apk.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/regression_tests/old_versions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/old_versions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/regression_tests/update_diffs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/update_diffs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_archive/com.marksandspencer.app.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/com.marksandspencer.app.apk.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scheme_data/*IOS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_data/*IOS.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +23,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>host</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,9 +49,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scheme_archive" />
       <recent name="$PROJECT_DIR$/android-apps/***ARCHIVE" />
       <recent name="$PROJECT_DIR$/ios-apps/***ARCHIVE" />
-      <recent name="$PROJECT_DIR$/scheme_archive" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scheme_data" />
     </key>
@@ -215,7 +107,10 @@
       <workItem from="1592315332615" duration="2330000" />
       <workItem from="1592318252564" duration="4776000" />
       <workItem from="1592332041011" duration="4501000" />
-      <workItem from="1592499205973" duration="19400000" />
+      <workItem from="1592499205973" duration="25218000" />
+      <workItem from="1593009026809" duration="9304000" />
+      <workItem from="1593446650340" duration="32393000" />
+      <workItem from="1594082054163" duration="19426000" />
     </task>
     <servers />
   </component>

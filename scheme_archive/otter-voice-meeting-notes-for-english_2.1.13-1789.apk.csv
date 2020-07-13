@@ -1,0 +1,649 @@
+package = 'com.aisense.otter'
+scheme = 'https'
+host = 'otter.ai'
+host = 'www.otter.ai'
+pathPrefix = '/s/'
+pathPrefix = '/shared/'
+pathPrefix = '/note/'
+pathPrefix = '/ml/'
+pathPrefix = '/invite/'
+pathPrefix = '/confirm/'
+pathPrefix = '/group/'
+pathPrefix = '/folder/'
+pathPrefix = '/shared-notes'
+pathPrefix = '/all-notes'
+mimeType = 'audio/*'
+mimeType = 'video/*'
+scheme = 'db-cnty8pagnigi529'
+host = 'auth'
+scheme = 'msal7caa06af-66c7-4db4-95c6-aedae793935a'
+*TYPICAL INTENT* 
+ intent://otter.ai/s/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/shared/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/note/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/ml/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/invite/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/confirm/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/group/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/folder/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/shared-notes#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/all-notes#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/s/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/shared/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/note/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/ml/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/invite/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/confirm/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/group/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/folder/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/shared-notes#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/all-notes#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/s/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/shared/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/note/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/ml/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/invite/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/confirm/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/group/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/folder/#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/shared-notes#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/all-notes#Intent;package=com.aisense.otter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/s/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/shared/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/note/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/ml/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/invite/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/confirm/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/group/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/folder/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/shared-notes#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/all-notes#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/s/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/shared/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/note/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/ml/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/invite/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/confirm/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/group/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/folder/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/shared-notes#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/all-notes#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/s/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/shared/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/note/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/ml/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/invite/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/confirm/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/group/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/folder/#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/shared-notes#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/all-notes#Intent;package=com.aisense.otter;scheme=db-cnty8pagnigi529;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/s/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/shared/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/note/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/ml/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/invite/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/confirm/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/group/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/folder/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/shared-notes#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otter.ai/all-notes#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=otter.ai://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/s/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/shared/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/note/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/ml/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/invite/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/confirm/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/group/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/folder/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/shared-notes#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otter.ai/all-notes#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=www.otter.ai://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=www.otter.ai;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/s/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://s/;end
+*IOS 2* 
+ intent://s/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/shared/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://shared/;end
+*IOS 2* 
+ intent://shared/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/note/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://note/;end
+*IOS 2* 
+ intent://note/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/ml/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://ml/;end
+*IOS 2* 
+ intent://ml/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/invite/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://invite/;end
+*IOS 2* 
+ intent://invite/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/confirm/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://confirm/;end
+*IOS 2* 
+ intent://confirm/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/group/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://group/;end
+*IOS 2* 
+ intent://group/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/folder/#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://folder/;end
+*IOS 2* 
+ intent://folder/#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/shared-notes#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://shared-notes;end
+*IOS 2* 
+ intent://shared-notes#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://auth/all-notes#Intent;package=com.aisense.otter;scheme=msal7caa06af-66c7-4db4-95c6-aedae793935a;end
+*IOS 1* 
+ intent://#Intent;package=com.aisense.otter;scheme=auth://all-notes;end
+*IOS 2* 
+ intent://all-notes#Intent;package=com.aisense.otter;scheme=auth;end
+############################################################################

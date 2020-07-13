@@ -15,6 +15,7 @@ class DownloadUpdatedApps
 
   def initialize
     @version_array = []
+    @app_names = []
   end
 
   def execute
@@ -24,7 +25,7 @@ class DownloadUpdatedApps
     compare_csv
     new_app_count
     new_version?
-
+    move_apk
   end
 
   # This renames the new_versions.csv to old_versions.csv
@@ -85,12 +86,11 @@ class DownloadUpdatedApps
   def new_version?
     File.open("./regression_tests/update_diffs.csv","r").readlines.each do |app|
       @app = app unless app  == nil
-
+      @app_names << @app.split('+').last.split(',').first.gsub(' ','')
       if app[0].include?('+')
         move_apk_from_new_to_old
         download_apk
         rename_apk
-        move_apk
       end
     end
   end
@@ -98,7 +98,6 @@ class DownloadUpdatedApps
   # Moves the actual apk to the *old directory if it already exists in the *new directory
 
   def move_apk_from_new_to_old
-    @app_name = @app.split('+').last.split(',').first.gsub(' ','')
     if File.exist?('/Users/ericmckinney/desktop/android-regression/*old/' + @app_name)
       File.delete('/Users/ericmckinney/desktop/android-regression/*old/' + @app_name)
     end
@@ -136,6 +135,7 @@ class DownloadUpdatedApps
     Dir.chdir("/Users/ericmckinney/downloads")
     @new_apps = Dir['*'].sort_by{ |f| File.mtime(f) }.last(@download_total).reverse
     @new_apps.each do |a|
+      binding.pry
       FileUtils.mv("/Users/ericmckinney/downloads/" + a, "/Users/ericmckinney/downloads/" + @app_name + File.extname(a) )
     end
   end
