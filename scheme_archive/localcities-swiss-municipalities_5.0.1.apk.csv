@@ -1,0 +1,91 @@
+package = 'ch.localsearch.localcities.android'
+host = 'login.localcities.ch'
+pathPrefix = '/android/ch.localsearch.localcities.android/callback'
+scheme = 'ch.localsearch.localcities.android'
+scheme = 'ch.localsearch.localcities'
+host = 'cct.ch.localsearch.localcities.android'
+scheme = 'fbconnect'
+*TYPICAL INTENT* 
+ intent://login.localcities.ch/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities.android;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.ch.localsearch.localcities.android/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities.android;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://login.localcities.ch/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.ch.localsearch.localcities.android/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://login.localcities.ch/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.ch.localsearch.localcities.android/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://login.localcities.ch/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities.android;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.ch.localsearch.localcities.android/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities.android;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://login.localcities.ch/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.ch.localsearch.localcities.android/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=ch.localsearch.localcities;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://login.localcities.ch/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=login.localcities.ch;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.ch.localsearch.localcities.android/android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android://android/ch.localsearch.localcities.android/callback;end
+*IOS 2* 
+ intent://android/ch.localsearch.localcities.android/callback#Intent;package=ch.localsearch.localcities.android;scheme=cct.ch.localsearch.localcities.android;end
+############################################################################

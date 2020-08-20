@@ -1,0 +1,11 @@
+package = 'com.getepic.Epic'
+host = 'www.getepic.com'
+pathPattern = '/app/.*'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://www.getepic.com/app/.*#Intent;package=com.getepic.Epic;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.getepic.Epic;scheme=www.getepic.com://app/.*;end
+*IOS 2* 
+ intent://app/.*#Intent;package=com.getepic.Epic;scheme=www.getepic.com;end
+############################################################################

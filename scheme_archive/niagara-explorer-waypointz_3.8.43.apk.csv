@@ -1,0 +1,19 @@
+package = 'com.mytoursapp.android.app1870'
+scheme = 'mytours1870'
+host = 'app.mytoursapp.com'
+pathPrefix = '/viewer/apps/1870'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://app.mytoursapp.com/viewer/apps/1870#Intent;package=com.mytoursapp.android.app1870;scheme=mytours1870;end
+*IOS 1* 
+ intent://#Intent;package=com.mytoursapp.android.app1870;scheme=app.mytoursapp.com://viewer/apps/1870;end
+*IOS 2* 
+ intent://viewer/apps/1870#Intent;package=com.mytoursapp.android.app1870;scheme=app.mytoursapp.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.mytoursapp.com/viewer/apps/1870#Intent;package=com.mytoursapp.android.app1870;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.mytoursapp.android.app1870;scheme=app.mytoursapp.com://viewer/apps/1870;end
+*IOS 2* 
+ intent://viewer/apps/1870#Intent;package=com.mytoursapp.android.app1870;scheme=app.mytoursapp.com;end
+############################################################################

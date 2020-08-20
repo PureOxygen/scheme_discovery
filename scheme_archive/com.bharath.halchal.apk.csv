@@ -1,0 +1,528 @@
+package = 'com.bharath.halchal'
+host = 'www.halchal.app'
+scheme = 'https'
+host = 'halchal.app'
+pathPrefix = '/API/'
+scheme = 'http'
+host = 'halchal.app'
+pathPrefix = '/share/'
+scheme = 'http'
+host = 'www.halchal.app'
+pathPrefix = '/API/'
+scheme = 'http'
+host = 'www.halchal.app'
+pathPrefix = '/share/'
+scheme = 'http'
+host = 'www.halchal.app'
+pathPrefix = '/share/'
+scheme = 'https'
+host = 'www.halchal.app'
+pathPrefix = '/API/'
+scheme = 'https'
+scheme = '@string/fb_login_protocol_scheme'
+host = 'cct.com.bharath.halchal'
+scheme = 'fbconnect'
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/API/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.halchal.app/share/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=www.halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=www.halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/API/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://halchal.app/share/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=halchal.app://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=halchal.app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://;end
+*IOS 2* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/API/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://API/;end
+*IOS 2* 
+ intent://API/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.bharath.halchal/share/#Intent;package=com.bharath.halchal;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal://share/;end
+*IOS 2* 
+ intent://share/#Intent;package=com.bharath.halchal;scheme=cct.com.bharath.halchal;end
+############################################################################

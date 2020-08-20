@@ -1,0 +1,205 @@
+package = 'nl.uitzendinggemist'
+host = 'npostart.nl'
+scheme = 'https'
+host = 'www.npostart.nl'
+scheme = 'https'
+host = 'npostart.nl'
+path = ''
+scheme = 'https'
+host = 'www.npostart.nl'
+path = ''
+scheme = 'https'
+host = 'npostart.nl'
+path = '/'
+scheme = 'https'
+host = 'www.npostart.nl'
+path = '/'
+scheme = 'https'
+host = 'npostart.nl'
+path = '/live'
+scheme = 'https'
+host = 'www.npostart.nl'
+path = '/live'
+scheme = 'https'
+host = 'npostart.nl'
+path = '/gids'
+scheme = 'https'
+host = 'www.npostart.nl'
+path = '/gids'
+scheme = 'https'
+host = 'npostart.nl'
+path = '/programmas'
+scheme = 'https'
+host = 'www.npostart.nl'
+path = '/programmas'
+scheme = 'https'
+host = 'npostart.nl'
+pathPattern = '/collectie/..*'
+scheme = 'https'
+host = 'www.npostart.nl'
+pathPattern = '/collectie/..*'
+scheme = 'https'
+host = 'npostart.nl'
+pathPattern = '/speellijst/..*'
+scheme = 'https'
+host = 'www.npostart.nl'
+pathPattern = '/speellijst/..*'
+scheme = 'https'
+host = 'npostart.nl'
+pathPattern = '/..*/..-..-..../..*'
+scheme = 'https'
+host = 'www.npostart.nl'
+pathPattern = '/..*/..-..-..../..*'
+scheme = 'https'
+host = 'npostart.nl'
+pathPattern = '/..*/..*'
+scheme = 'https'
+host = 'www.npostart.nl'
+pathPattern = '/..*/..*'
+scheme = 'https'
+host = 'npostart.nl'
+pathPattern = '/..*/..*/episode'
+scheme = 'https'
+host = 'www.npostart.nl'
+pathPattern = '/..*/..*/episode'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://npostart.nl#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl:/;end
+*IOS 2* 
+ intent:/#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/live#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://live;end
+*IOS 2* 
+ intent://live#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/gids#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://gids;end
+*IOS 2* 
+ intent://gids#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/programmas#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://programmas;end
+*IOS 2* 
+ intent://programmas#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/collectie/..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://collectie/..*;end
+*IOS 2* 
+ intent://collectie/..*#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/speellijst/..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://speellijst/..*;end
+*IOS 2* 
+ intent://speellijst/..*#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/..*/..-..-..../..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://..*/..-..-..../..*;end
+*IOS 2* 
+ intent://..*/..-..-..../..*#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/..*/..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://..*/..*;end
+*IOS 2* 
+ intent://..*/..*#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://npostart.nl/..*/..*/episode#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=npostart.nl://..*/..*/episode;end
+*IOS 2* 
+ intent://..*/..*/episode#Intent;package=nl.uitzendinggemist;scheme=npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl:/;end
+*IOS 2* 
+ intent:/#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/live#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://live;end
+*IOS 2* 
+ intent://live#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/gids#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://gids;end
+*IOS 2* 
+ intent://gids#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/programmas#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://programmas;end
+*IOS 2* 
+ intent://programmas#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/collectie/..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://collectie/..*;end
+*IOS 2* 
+ intent://collectie/..*#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/speellijst/..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://speellijst/..*;end
+*IOS 2* 
+ intent://speellijst/..*#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/..*/..-..-..../..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://..*/..-..-..../..*;end
+*IOS 2* 
+ intent://..*/..-..-..../..*#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/..*/..*#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://..*/..*;end
+*IOS 2* 
+ intent://..*/..*#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.npostart.nl/..*/..*/episode#Intent;package=nl.uitzendinggemist;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl://..*/..*/episode;end
+*IOS 2* 
+ intent://..*/..*/episode#Intent;package=nl.uitzendinggemist;scheme=www.npostart.nl;end
+############################################################################

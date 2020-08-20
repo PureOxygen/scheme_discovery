@@ -1,0 +1,31 @@
+package = 'com.comunix.pokerface'
+host = 'cct.com.comunix.pokerface'
+scheme = 'fbconnect'
+*TYPICAL INTENT* 
+ intent://cct.com.comunix.pokerface/#Intent;package=com.comunix.pokerface;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface://;end
+*IOS 2* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.comunix.pokerface/#Intent;package=com.comunix.pokerface;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface://;end
+*IOS 2* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.comunix.pokerface/#Intent;package=com.comunix.pokerface;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface://;end
+*IOS 2* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.com.comunix.pokerface/#Intent;package=com.comunix.pokerface;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface://;end
+*IOS 2* 
+ intent://#Intent;package=com.comunix.pokerface;scheme=cct.com.comunix.pokerface;end
+############################################################################

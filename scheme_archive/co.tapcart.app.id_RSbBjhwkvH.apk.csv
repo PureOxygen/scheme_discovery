@@ -1,0 +1,101 @@
+package = 'co.tapcart.app.id_RSbBjhwkvH'
+host = 'demo7985545.mockable.io'
+scheme = 'http'
+scheme = 'https'
+host = 'demo7985545.mockable.io'
+pathPattern = '/products/.*'
+scheme = 'http'
+scheme = 'https'
+host = 'demo7985545.mockable.io'
+pathPattern = '/collections/.*/products/.*'
+scheme = 'http'
+scheme = 'https'
+scheme = '@string/talkable_scheme'
+scheme = 'http'
+scheme = 'https'
+host = '@string/sailthru_scheme'
+pathPrefix = '/click/'
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://products/.*;end
+*IOS 2* 
+ intent://products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://collections/.*/products/.*;end
+*IOS 2* 
+ intent://collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://click/;end
+*IOS 2* 
+ intent://click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://products/.*;end
+*IOS 2* 
+ intent://products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://collections/.*/products/.*;end
+*IOS 2* 
+ intent://collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://click/;end
+*IOS 2* 
+ intent://click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=@string/talkable_scheme;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://products/.*;end
+*IOS 2* 
+ intent://products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=@string/talkable_scheme;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://collections/.*/products/.*;end
+*IOS 2* 
+ intent://collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=@string/talkable_scheme;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://click/;end
+*IOS 2* 
+ intent://click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=@string/sailthru_scheme;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://products/.*;end
+*IOS 2* 
+ intent://products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=@string/sailthru_scheme;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://collections/.*/products/.*;end
+*IOS 2* 
+ intent://collections/.*/products/.*#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://demo7985545.mockable.io/click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=@string/sailthru_scheme;end
+*IOS 1* 
+ intent://#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io://click/;end
+*IOS 2* 
+ intent://click/#Intent;package=co.tapcart.app.id_RSbBjhwkvH;scheme=demo7985545.mockable.io;end
+############################################################################

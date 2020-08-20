@@ -1,0 +1,8 @@
+package = 'ca.rad.app.android'
+host = 'www.rad.ca'
+pathPrefix = '/application'
+scheme = 'https'
+host = 'www.rad.ca'
+pathPrefix = '/questionnaire-partage'
+scheme = 'https'
+scheme = 'tagmanager.c.ca.rad.app.android'

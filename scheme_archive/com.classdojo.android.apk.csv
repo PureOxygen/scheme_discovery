@@ -1,0 +1,350 @@
+package = 'com.classdojo.android'
+scheme = 'classdojo'
+host = 'doj.io'
+pathPrefix = '/q'
+scheme = 'https'
+host = 'classdojo.com'
+pathPrefix = '/verify'
+scheme = 'https'
+host = 'mw.classdojo.com'
+pathPrefix = '/verifyEmail'
+scheme = 'https'
+host = 'mw.classdojo.com'
+pathPrefix = '/fridayReport'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://doj.io/q#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verify#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/fridayReport#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/q#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verify#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/q#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verify#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/q#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verify#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verifyEmail#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/fridayReport#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/q#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verify#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/q#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verify#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/q#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verify#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/fridayReport#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/q#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verify#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/q#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verify#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=classdojo;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/q#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verify#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/verifyEmail#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://doj.io/fridayReport#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=doj.io://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=doj.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/q#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verify#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/q#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://q;end
+*IOS 2* 
+ intent://q#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verify#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verify;end
+*IOS 2* 
+ intent://verify#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/verifyEmail#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://verifyEmail;end
+*IOS 2* 
+ intent://verifyEmail#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mw.classdojo.com/fridayReport#Intent;package=com.classdojo.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.classdojo.android;scheme=mw.classdojo.com://fridayReport;end
+*IOS 2* 
+ intent://fridayReport#Intent;package=com.classdojo.android;scheme=mw.classdojo.com;end
+############################################################################

@@ -1,0 +1,51 @@
+package = 'one.appid.shkradio'
+host = '@string/deeplink_url'
+pathPrefix = '/'
+scheme = 'http'
+host = '@string/deeplink_url'
+pathPrefix = '/'
+scheme = 'https'
+host = 'cct.one.appid.shkradio'
+scheme = 'fbconnect'
+*TYPICAL INTENT* 
+ intent://shk.radio/app#Intent;package=one.appid.shkradio;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=one.appid.shkradio;scheme=@string/deeplink_url://;end
+*IOS 2* 
+ intent://#Intent;package=one.appid.shkradio;scheme=@string/deeplink_url;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.one.appid.shkradio/#Intent;package=one.appid.shkradio;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=one.appid.shkradio;scheme=cct.one.appid.shkradio://;end
+*IOS 2* 
+ intent://#Intent;package=one.appid.shkradio;scheme=cct.one.appid.shkradio;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/deeplink_url/#Intent;package=one.appid.shkradio;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=one.appid.shkradio;scheme=@string/deeplink_url://;end
+*IOS 2* 
+ intent://#Intent;package=one.appid.shkradio;scheme=@string/deeplink_url;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.one.appid.shkradio/#Intent;package=one.appid.shkradio;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=one.appid.shkradio;scheme=cct.one.appid.shkradio://;end
+*IOS 2* 
+ intent://#Intent;package=one.appid.shkradio;scheme=cct.one.appid.shkradio;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://fb642137889899475#Intent;package=one.appid.shkradio;scheme=fbconnect;end
+*IOS 1* 
+ intent://#Intent;package=one.appid.shkradio;scheme=@string/deeplink_url://;end
+*IOS 2* 
+ intent://#Intent;package=one.appid.shkradio;scheme=@string/deeplink_url;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cct.one.appid.shkradio/#Intent;package=one.appid.shkradio;scheme=fb642137889899475;end
+*IOS 1* 
+ intent://#Intent;package=one.appid.shkradio;scheme=cct.one.appid.shkradio://;end
+*IOS 2* 
+ intent://#Intent;package=one.appid.shkradio;scheme=cct.one.appid.shkradio;end
+############################################################################

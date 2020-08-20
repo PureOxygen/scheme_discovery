@@ -1,0 +1,263 @@
+package = 'com.pauza.hr'
+scheme = 'https'
+host = 'www.pauza.hr'
+host = 'pauza.hr'
+host = 'app.pauza.hr'
+pathPattern = '/.*'
+scheme = 'pauzahr'
+scheme = 'com.pauza.hr'
+scheme = '@string/fb_login_protocol_scheme'
+scheme = 'com.pauza.hr.braintree'
+scheme = 'tagmanager.c.com.pauza.hr'
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=pauzahr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=pauzahr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=pauzahr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=tagmanager.c.com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=tagmanager.c.com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=tagmanager.c.com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=pauzahr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=pauzahr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=pauzahr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=com.pauza.hr.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=tagmanager.c.com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=www.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=www.pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pauza.hr/.*#Intent;package=com.pauza.hr;scheme=tagmanager.c.com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=pauza.hr;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pauza.hr/.*#Intent;package=com.pauza.hr;scheme=tagmanager.c.com.pauza.hr;end
+*IOS 1* 
+ intent://#Intent;package=com.pauza.hr;scheme=app.pauza.hr://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.pauza.hr;scheme=app.pauza.hr;end
+############################################################################

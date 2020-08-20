@@ -1,0 +1,4078 @@
+package = 'otlob.UI'
+host = '*'
+scheme = 'otlob'
+host = '*'
+scheme = 'otlobweb'
+host = 'www.otlob.com'
+pathPrefix = '/'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/bahrain'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ksa'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/oman'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/uae'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/qatar'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ar/kuwait'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ar/bahrain'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ar/ksa'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ar/oman'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ar/qatar'
+scheme = 'https'
+host = 'www.otlob.com'
+pathPrefix = '/ar/uae'
+scheme = 'https'
+host = 'otlob.UI'
+scheme = 'checkout'
+host = 'instabug-disclaimer.com'
+scheme = 'instabug-bug'
+scheme = 'tagmanager.c.otlob.UI'
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=otlob;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=otlobweb;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=checkout;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=*://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.otlob.com/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=www.otlob.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=www.otlob.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://otlob.UI/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=otlob.UI://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=otlob.UI;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://;end
+*IOS 2* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://bahrain;end
+*IOS 2* 
+ intent://bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ksa;end
+*IOS 2* 
+ intent://ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://oman;end
+*IOS 2* 
+ intent://oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://uae;end
+*IOS 2* 
+ intent://uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://qatar;end
+*IOS 2* 
+ intent://qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/kuwait#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/kuwait;end
+*IOS 2* 
+ intent://ar/kuwait#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/bahrain#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/bahrain;end
+*IOS 2* 
+ intent://ar/bahrain#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/ksa#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/ksa;end
+*IOS 2* 
+ intent://ar/ksa#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/oman#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/oman;end
+*IOS 2* 
+ intent://ar/oman#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/qatar#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/qatar;end
+*IOS 2* 
+ intent://ar/qatar#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com/ar/uae#Intent;package=otlob.UI;scheme=tagmanager.c.otlob.UI;end
+*IOS 1* 
+ intent://#Intent;package=otlob.UI;scheme=instabug-disclaimer.com://ar/uae;end
+*IOS 2* 
+ intent://ar/uae#Intent;package=otlob.UI;scheme=instabug-disclaimer.com;end
+############################################################################

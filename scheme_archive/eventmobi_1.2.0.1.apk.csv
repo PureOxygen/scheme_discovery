@@ -1,0 +1,370 @@
+package = 'com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7'
+scheme = 'eventmobi'
+host = 'eventmobi.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'integration.eventmobi.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'release.eventmobi.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'allen.pollmobile.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'apps.eventmobi.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'integration-apps.eventmobi.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'release-apps.eventmobi.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'allen-apps.pollmobile.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'eventmobi.test-app.link'
+scheme = 'https'
+host = 'eventmobi-alternate.test-app.link'
+scheme = 'https'
+host = 'eventmobi.app.link'
+scheme = 'https'
+host = 'eventmobi-alternate.app.link'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen-apps.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen-apps.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen-apps.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://integration-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=integration-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://release-apps.eventmobi.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=release-apps.eventmobi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://allen-apps.pollmobile.com/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=allen-apps.pollmobile.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.test-app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://eventmobi-alternate.app.link/app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.eventmobi.multieventapp.meaidfa33d52eb4374fdb891ab905fa3a72e7;scheme=eventmobi-alternate.app.link;end
+############################################################################

@@ -1,0 +1,33 @@
+package = 'com.thirddoormedia.mtt'
+scheme = 'mtt'
+host = ' '
+pathPrefix = '/'
+scheme = ' '
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.thirddoormedia.mtt;scheme=mtt;end
+*IOS 1* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ://;end
+*IOS 2* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.thirddoormedia.mtt;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ://;end
+*IOS 2* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.thirddoormedia.mtt;scheme=mtt;end
+*IOS 1* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ://;end
+*IOS 2* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ;end
+############################################################################
+*TYPICAL INTENT* 
+ intent:// /#Intent;package=com.thirddoormedia.mtt;scheme= ;end
+*IOS 1* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ://;end
+*IOS 2* 
+ intent://#Intent;package=com.thirddoormedia.mtt;scheme= ;end
+############################################################################

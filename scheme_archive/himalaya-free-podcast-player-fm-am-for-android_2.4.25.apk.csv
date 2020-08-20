@@ -1,0 +1,2869 @@
+package = 'com.ximalaya.ting.himalaya'
+host = 'open'
+scheme = 'xmly-intl'
+host = 'www.himalaya.com'
+pathPattern = '.*podcasts.*'
+scheme = 'http'
+host = 'www.himalaya.com'
+pathPattern = '.*podcasts.*'
+scheme = 'https'
+host = 'www.himalaya.com'
+pathPattern = '/playlists.*'
+scheme = 'http'
+host = 'www.himalaya.com'
+pathPattern = '/playlists.*'
+scheme = 'https'
+mimeType = 'application/octet-stream'
+pathPattern = '.*.opml'
+scheme = 'file'
+host = 'gmail-ls'
+mimeType = 'text/xml'
+scheme = 'content'
+host = '*'
+scheme = 'pktc'
+mimeType = 'text/xml'
+pathPattern = '.*.opml'
+host = '*'
+mimeType = 'text/*'
+pathPattern = '.*.opml'
+scheme = 'http'
+host = '*'
+mimeType = 'application/*'
+pathPattern = '.*.opml'
+scheme = 'content'
+host = '*'
+mimeType = 'text/*'
+pathPattern = '.*.opml'
+scheme = 'https'
+host = '*'
+mimeType = 'text/*'
+pathPattern = '.*.opml'
+scheme = 'file'
+host = '*'
+mimeType = '*/*'
+pathPattern = '.*.opml'
+scheme = 'file'
+scheme = 'itpc'
+scheme = 'pcast'
+scheme = 'feed'
+scheme = 'rss'
+mimeType = 'text/xml'
+scheme = 'http'
+mimeType = 'application/rss+xml'
+scheme = 'http'
+mimeType = 'application/atom+xml'
+scheme = 'http'
+host = '*'
+pathPattern = '.*xml'
+scheme = 'http'
+host = '*'
+pathPattern = '.*xml'
+scheme = 'https'
+host = '*'
+pathPattern = '.*rss'
+scheme = 'http'
+host = '*'
+pathPattern = '.*rss'
+scheme = 'https'
+mimeType = 'text/*'
+mimeType = '*/*'
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=xmly-intl;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=file;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pktc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=itpc;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=pcast;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=feed;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=open:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.himalaya.com.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=www.himalaya.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://gmail-ls.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=gmail-ls;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*podcasts.*;end
+*IOS 2* 
+ intent:/.*podcasts.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*://playlists.*;end
+*IOS 2* 
+ intent://playlists.*#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*.opml;end
+*IOS 2* 
+ intent:/.*.opml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*xml;end
+*IOS 2* 
+ intent:/.*xml#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=rss;end
+*IOS 1* 
+ intent://#Intent;package=com.ximalaya.ting.himalaya;scheme=*:/.*rss;end
+*IOS 2* 
+ intent:/.*rss#Intent;package=com.ximalaya.ting.himalaya;scheme=*;end
+############################################################################
