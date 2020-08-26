@@ -1,0 +1,28 @@
+package = 'com.diversyfundapp.diversyfund'
+host = 'portal.diversyfund.com'
+scheme = 'diversyfund'
+host = 'portal.diversyfund.com'
+pathPrefix = '/email-verify'
+scheme = 'https'
+scheme = '@string/fb_login_protocol_scheme'
+*TYPICAL INTENT* 
+ intent://portal.diversyfund.com/email-verify#Intent;package=com.diversyfundapp.diversyfund;scheme=diversyfund;end
+*IOS 1* 
+ intent://#Intent;package=com.diversyfundapp.diversyfund;scheme=portal.diversyfund.com://email-verify;end
+*IOS 2* 
+ intent://email-verify#Intent;package=com.diversyfundapp.diversyfund;scheme=portal.diversyfund.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://portal.diversyfund.com/email-verify#Intent;package=com.diversyfundapp.diversyfund;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.diversyfundapp.diversyfund;scheme=portal.diversyfund.com://email-verify;end
+*IOS 2* 
+ intent://email-verify#Intent;package=com.diversyfundapp.diversyfund;scheme=portal.diversyfund.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://portal.diversyfund.com/email-verify#Intent;package=com.diversyfundapp.diversyfund;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.diversyfundapp.diversyfund;scheme=portal.diversyfund.com://email-verify;end
+*IOS 2* 
+ intent://email-verify#Intent;package=com.diversyfundapp.diversyfund;scheme=portal.diversyfund.com;end
+############################################################################

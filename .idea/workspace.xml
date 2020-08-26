@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_tests/download_app.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regression_tests/get_versions.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheme_archive/greyhound-lines_6.95.901.apk.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quickstart.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sheets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spreadsheet_to_csv.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/play_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/play_store_links.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/apple-music_2.7.2.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/apk_diffs/apple-music_2.7.3.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/app_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/app_store_links.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/check_diff.rb" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/scrape_apk.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/download_all_apps.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/download_updated_apps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/download_updated_apps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/new_versions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/new_versions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/old_versions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/old_versions.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_tests/update_diffs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/update_diffs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/*IOS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/*IOS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/donesi-food-delivery_4.1.0.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/donesi-food-delivery_4.1.0.apk.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/greyhound-lines_6.95.901.apk.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/hungerstation-food-groceries-delivery-more_7.10.0.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/hungerstation-food-groceries-delivery-more_7.10.0.apk.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/instagram_149.0.0.25.120.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/instagram_149.0.0.25.120.apk.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/talabat-food-grocery-delivery_7.1.9.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/talabat-food-grocery-delivery_7.1.9.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/*IOS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_data/*IOS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/accounting-app-zoho-books_5.23.06.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/accounting-app-zoho-books_5.23.06.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/com.ubercab.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/com.ubercab.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/salesforce_226.010.0.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/salesforce_226.010.0.apk.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,16 +39,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="csv&#10;GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scheme_data" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scheme_data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scheme_data" />
       <recent name="$PROJECT_DIR$/scheme_archive" />
       <recent name="$PROJECT_DIR$/regression_tests/csv_compare/old" />
       <recent name="$PROJECT_DIR$/android-apps/***ARCHIVE" />
-      <recent name="$PROJECT_DIR$/ios-apps/***ARCHIVE" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -128,7 +119,10 @@
       <workItem from="1597257385158" duration="17917000" />
       <workItem from="1597617717156" duration="205000" />
       <workItem from="1597671326707" duration="8071000" />
-      <workItem from="1597947590407" duration="3134000" />
+      <workItem from="1597947590407" duration="8686000" />
+      <workItem from="1598034060971" duration="4354000" />
+      <workItem from="1598199726135" duration="6000" />
+      <workItem from="1598286245159" duration="14069000" />
     </task>
     <servers />
   </component>
@@ -148,12 +142,14 @@
       <screen x="797" y="-1057" width="1920" height="1025" />
     </state>
     <state x="1187" y="-931" key="SettingsEditor/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1592332506484" />
-    <state x="341" y="145" key="SettingsEditor/0.23.1680.995/-133.-1057.1920.1057@0.23.1680.995" timestamp="1587581100756" />
     <state x="1248" y="-812" width="778" height="534" key="find.popup" timestamp="1595447675947">
       <screen x="797" y="-1057" width="1920" height="1025" />
     </state>
     <state x="1248" y="-812" width="778" height="534" key="find.popup/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1595447675947" />
     <state x="395" y="261" width="680" height="518" key="find.popup/0.23.1680.995/-111.-1057.1920.1057@0.23.1680.995" timestamp="1589812687679" />
-    <state x="395" y="261" width="680" height="518" key="find.popup/0.23.1680.995/-133.-1057.1920.1057@0.23.1680.995" timestamp="1588705107925" />
+    <state x="1422" y="-830" width="670" height="676" key="search.everywhere.popup" timestamp="1598022795380">
+      <screen x="797" y="-1057" width="1920" height="1025" />
+    </state>
+    <state x="1422" y="-830" width="670" height="676" key="search.everywhere.popup/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1598022795380" />
   </component>
 </project>
