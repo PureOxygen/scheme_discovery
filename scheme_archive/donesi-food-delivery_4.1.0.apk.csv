@@ -1,0 +1,220 @@
+package = 'com.donesi.smart'
+scheme = 'https'
+host = 'www.donesi.com'
+host = 'donesi.com'
+host = 'app.donesi.com'
+pathPattern = '/.*'
+scheme = 'donesicom'
+scheme = '@string/fb_login_protocol_scheme'
+scheme = 'com.donesi.smart.braintree'
+scheme = 'tagmanager.c.com.donesi.smart'
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=donesicom;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=donesicom;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=donesicom;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=com.donesi.smart.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=com.donesi.smart.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=com.donesi.smart.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=tagmanager.c.com.donesi.smart;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=tagmanager.c.com.donesi.smart;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=tagmanager.c.com.donesi.smart;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=donesicom;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=donesicom;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=donesicom;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=com.donesi.smart.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=com.donesi.smart.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=com.donesi.smart.braintree;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.donesi.com/.*#Intent;package=com.donesi.smart;scheme=tagmanager.c.com.donesi.smart;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=www.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=www.donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://donesi.com/.*#Intent;package=com.donesi.smart;scheme=tagmanager.c.com.donesi.smart;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=donesi.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.donesi.com/.*#Intent;package=com.donesi.smart;scheme=tagmanager.c.com.donesi.smart;end
+*IOS 1* 
+ intent://#Intent;package=com.donesi.smart;scheme=app.donesi.com://.*;end
+*IOS 2* 
+ intent://.*#Intent;package=com.donesi.smart;scheme=app.donesi.com;end
+############################################################################

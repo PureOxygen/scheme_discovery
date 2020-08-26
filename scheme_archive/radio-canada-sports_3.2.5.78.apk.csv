@@ -1,0 +1,8 @@
+package = 'com.radiocanada.sports'
+scheme = '@string/deep_link_http_scheme'
+scheme = '@string/deep_link_https_scheme'
+host = '@string/deep_link_host'
+pathPattern = '@string/intent_filter_path_sports'
+scheme = 'http'
+scheme = 'https'
+scheme = 'message'

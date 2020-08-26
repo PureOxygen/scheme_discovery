@@ -1,0 +1,3 @@
+package = 'in.stage'
+host = 'www.stage.in'
+scheme = 'https'

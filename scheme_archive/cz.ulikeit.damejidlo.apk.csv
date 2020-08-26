@@ -1,0 +1,220 @@
+package = 'cz.ulikeit.damejidlo'
+host = 'www.foodora.com'
+scheme = 'http'
+host = 'dmjdlo.page.link'
+scheme = 'https'
+scheme = 'damejidlo'
+host = '*'
+pathPattern = '/cashier-payment'
+scheme = 'damejidlo-cashier'
+scheme = 'tagmanager.c.cz.ulikeit.damejidlo'
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo-cashier;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo-cashier;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo-cashier;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=tagmanager.c.cz.ulikeit.damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=tagmanager.c.cz.ulikeit.damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=tagmanager.c.cz.ulikeit.damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo-cashier;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo-cashier;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=damejidlo-cashier;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foodora.com/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=tagmanager.c.cz.ulikeit.damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=www.foodora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://dmjdlo.page.link/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=tagmanager.c.cz.ulikeit.damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=dmjdlo.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=tagmanager.c.cz.ulikeit.damejidlo;end
+*IOS 1* 
+ intent://#Intent;package=cz.ulikeit.damejidlo;scheme=*://cashier-payment;end
+*IOS 2* 
+ intent://cashier-payment#Intent;package=cz.ulikeit.damejidlo;scheme=*;end
+############################################################################

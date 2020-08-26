@@ -1,0 +1,6 @@
+package = 'com.gallusgolf.c1172.android.reserverun'
+scheme = 'gallusgolf1172'
+host = ' '
+pathPrefix = '/'
+scheme = ' '
+scheme = 'message'

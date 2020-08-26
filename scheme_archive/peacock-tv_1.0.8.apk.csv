@@ -1,0 +1,7 @@
+package = 'com.peacocktv.peacockandroid'
+scheme = '@string/deeplink_scheme_atlas'
+scheme = '@string/deeplink_scheme_nowtv'
+scheme = '@string/deeplink_scheme_nowtv_ie'
+scheme = '@string/deeplink_scheme_nowtv_it'
+scheme = '@string/deeplink_scheme_nowtv_de'
+scheme = '@string/deeplink_scheme_nowtv_es'

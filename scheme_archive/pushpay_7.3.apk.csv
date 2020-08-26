@@ -1,0 +1,1151 @@
+package = 'com.pushpay.android.pp'
+host = 'app.pushpay'
+scheme = 'http'
+host = 'pushpay.com'
+host = 'ppay.co'
+host = 'test.pushpay.com'
+host = 'qa.pushpay.com'
+host = 'qa.testpushpay.com'
+host = 'ppqa.co'
+host = 'sandbox.pushpay.io'
+host = 'ppsb.co'
+scheme = 'https'
+scheme = 'http'
+scheme = 'pushpay'
+pathPrefix = '/pay'
+pathPrefix = '/device/android-intent'
+pathPrefix = '/device/deep-link'
+*TYPICAL INTENT* 
+ intent://app.pushpay/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/pay#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/pay#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.pushpay/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=app.pushpay://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=app.pushpay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppay.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppay.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppay.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://test.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=test.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.pushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.pushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://qa.testpushpay.com/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=qa.testpushpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppqa.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppqa.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppqa.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.pushpay.io/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=sandbox.pushpay.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/pay#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://pay;end
+*IOS 2* 
+ intent://pay#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/android-intent#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/android-intent;end
+*IOS 2* 
+ intent://device/android-intent#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://ppsb.co/device/deep-link#Intent;package=com.pushpay.android.pp;scheme=pushpay;end
+*IOS 1* 
+ intent://#Intent;package=com.pushpay.android.pp;scheme=ppsb.co://device/deep-link;end
+*IOS 2* 
+ intent://device/deep-link#Intent;package=com.pushpay.android.pp;scheme=ppsb.co;end
+############################################################################

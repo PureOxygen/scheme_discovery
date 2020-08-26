@@ -1,0 +1,910 @@
+package = 'nl.ajax.acp'
+scheme = 'https'
+host = 'www.ajax.nl'
+path = '/idin'
+scheme = 'https'
+host = 'www.ajax.nl'
+pathPrefix = '/api/app/articles/'
+scheme = 'ajax'
+host = 'goto'
+path = '/kingOfTheMatch*'
+host = '@string/aws_user_code_redirect_host'
+scheme = '@string/aws_user_code_redirect_scheme'
+host = 'msauth.nl.ajax://auth'
+scheme = 'content'
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=ajax;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_scheme;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.ajax.nl/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=www.ajax.nl://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=www.ajax.nl;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://goto/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=goto://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=goto;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/aws_user_code_redirect_host/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=@string/aws_user_code_redirect_host;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://;end
+*IOS 2* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/idin#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://idin;end
+*IOS 2* 
+ intent://idin#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/api/app/articles/#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://api/app/articles/;end
+*IOS 2* 
+ intent://api/app/articles/#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://msauth.nl.ajax://auth/kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=content;end
+*IOS 1* 
+ intent://#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth://kingOfTheMatch*;end
+*IOS 2* 
+ intent://kingOfTheMatch*#Intent;package=nl.ajax.acp;scheme=msauth.nl.ajax://auth;end
+############################################################################

@@ -1,0 +1,221 @@
+package = 'com.revolut.revolut'
+mimeType = '@string/mime_type_request'
+mimeType = '@string/mime_type_send'
+host = 'lu5or.test-app.link'
+scheme = 'https'
+host = 'lu5or-alternate.test-app.link'
+scheme = 'https'
+host = 'lu5or-alternate.app.link'
+scheme = 'https'
+host = 'app.revolut.com'
+scheme = 'https'
+scheme = 'revolut'
+host = 'www.revolut.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'revolut.com'
+pathPrefix = '/app'
+scheme = 'https'
+host = 'revolut.me'
+scheme = 'https'
+host = 'pay.revolut.com'
+scheme = 'https'
+host = 'pay.revolut.com'
+scheme = 'http'
+host = 'pay.revolut.com'
+scheme = 'https'
+host = 'revolut.me'
+scheme = 'http'
+host = 'revolut.me'
+scheme = 'https'
+host = 'oba.revolut.com'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://lu5or.test-app.link/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or-alternate.test-app.link/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or-alternate.app.link/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.revolut.com/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=app.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=app.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.revolut.com/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=www.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=www.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://revolut.com/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://revolut.me/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=revolut.me://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=revolut.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay.revolut.com/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=pay.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=pay.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://oba.revolut.com/app#Intent;package=com.revolut.revolut;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=oba.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=oba.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or.test-app.link/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or-alternate.test-app.link/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or-alternate.app.link/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.revolut.com/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=app.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=app.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.revolut.com/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=www.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=www.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://revolut.com/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://revolut.me/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=revolut.me://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=revolut.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay.revolut.com/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=pay.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=pay.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://oba.revolut.com/app#Intent;package=com.revolut.revolut;scheme=revolut;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=oba.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=oba.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or.test-app.link/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or-alternate.test-app.link/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.test-app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.test-app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://lu5or-alternate.app.link/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.app.link://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=lu5or-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.revolut.com/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=app.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=app.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.revolut.com/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=www.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=www.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://revolut.com/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://revolut.me/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=revolut.me://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=revolut.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay.revolut.com/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=pay.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=pay.revolut.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://oba.revolut.com/app#Intent;package=com.revolut.revolut;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.revolut.revolut;scheme=oba.revolut.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.revolut.revolut;scheme=oba.revolut.com;end
+############################################################################

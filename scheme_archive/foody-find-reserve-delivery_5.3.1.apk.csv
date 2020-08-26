@@ -1,0 +1,1156 @@
+package = 'com.foody.vn.activity'
+host = 'open'
+scheme = 'foody'
+host = 'foodyvn.app.link'
+scheme = 'https'
+host = 'foodyvn-alternate.app.link'
+scheme = 'https'
+pathPattern = '.*'
+scheme = 'foody'
+host = 'www.foody.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.foody.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.foody.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.foody.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'sandbox.foody.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'sandbox.foody.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'sandbox50.foody.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'sandbox50.foody.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'sandbox.foody.id'
+pathPattern = '.*'
+scheme = 'http'
+host = 'sandbox.foody.id'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.tablenow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.tablenow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.tablenow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.tablenow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'sandbox.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'sandbox.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'sandbox.tablenow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'sandbox.tablenow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.foody.id'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.foody.id'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.foody.id'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.foody.id'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.foody.co.th'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.foody.co.th'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.foody.co.th'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.foody.co.th'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.now.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.now.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'sandbox.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'sandbox.deliverynow.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.now.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.now.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'mtest.now.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'mtest.now.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'g.test.now.vn'
+pathPattern = '.*'
+scheme = 'http'
+host = 'g.test.now.vn'
+pathPattern = '.*'
+scheme = 'https'
+host = 'www.now.in.th'
+pathPattern = '.*'
+scheme = 'http'
+host = 'www.now.in.th'
+pathPattern = '.*'
+scheme = 'https'
+host = 'm.now.in.th'
+pathPattern = '.*'
+scheme = 'http'
+host = 'm.now.in.th'
+pathPattern = '.*'
+scheme = 'https'
+scheme = 'package'
+*TYPICAL INTENT* 
+ intent://open.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=open:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn.app.link.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn-alternate.app.link.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox50.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.id.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.id.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.id.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mtest.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://g.test.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=open:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn.app.link.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn-alternate.app.link.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox50.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.id.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.id.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.id.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mtest.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://g.test.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=open:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn.app.link.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn-alternate.app.link.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox50.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.id.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.id.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.id.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mtest.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://g.test.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=open:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn.app.link.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn-alternate.app.link.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox50.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.id.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.id.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.id.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mtest.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://g.test.now.vn.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=foody;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=open:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn.app.link.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn-alternate.app.link.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox50.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.id.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.id.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.id.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mtest.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://g.test.now.vn.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://open.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=open:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=open;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn.app.link.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://foodyvn-alternate.app.link.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=foodyvn-alternate.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox50.foody.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox50.foody.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.foody.id.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sandbox.tablenow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=sandbox.tablenow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.deliverynow.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.deliverynow.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.id.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.id.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.id:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.id;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.foody.co.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.foody.co.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mtest.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=mtest.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://g.test.now.vn.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=g.test.now.vn;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=www.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=www.now.in.th;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.now.in.th.*#Intent;package=com.foody.vn.activity;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.foody.vn.activity;scheme=m.now.in.th:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.foody.vn.activity;scheme=m.now.in.th;end
+############################################################################

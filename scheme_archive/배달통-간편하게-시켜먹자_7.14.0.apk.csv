@@ -1,0 +1,232 @@
+package = 'stonykids.baedaltong.season2'
+host = 'season2'
+scheme = 'baedaltong'
+scheme = '@string/fb_login_protocol_scheme'
+scheme = 'tagmanager.c.stonykids.baedaltong.season2'
+host = 'authorize'
+path = '/'
+scheme = 'naver3rdpartylogin'
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=baedaltong;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=tagmanager.c.stonykids.baedaltong.season2;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://season2/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=season2;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://authorize/#Intent;package=stonykids.baedaltong.season2;scheme=naver3rdpartylogin;end
+*IOS 1* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize://;end
+*IOS 2* 
+ intent://#Intent;package=stonykids.baedaltong.season2;scheme=authorize;end
+############################################################################

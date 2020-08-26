@@ -1,0 +1,6 @@
+package = 'com.tjommi.tjommi'
+host = 'tjommi-app'
+scheme = 'tjommi'
+scheme = 'com.tjommi.tjommi'
+host = 'cct.com.tjommi.tjommi'
+scheme = 'fbconnect'

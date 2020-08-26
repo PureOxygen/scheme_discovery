@@ -1,0 +1,101 @@
+package = 'com.salesforce.chatter'
+host = '*'
+path = '/axm/detect/oauth/done'
+scheme = 'sfdc'
+host = '*.salesforce.com'
+scheme = 'https'
+host = '*.force.com'
+scheme = 'https'
+host = '*'
+scheme = 'salesforce1'
+host = '*'
+scheme = 'com.salesforce.chatter'
+mimeType = 'image/*'
+mimeType = 'video/*'
+mimeType = 'application/*'
+mimeType = 'text/*'
+mimeType = 'text/plain'
+*TYPICAL INTENT* 
+ intent://*/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=sfdc;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.salesforce.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=sfdc;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.force.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=sfdc;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.force.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.force.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.salesforce.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.force.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.force.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.force.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=salesforce1;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.salesforce.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=salesforce1;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.force.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=salesforce1;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.force.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.force.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=com.salesforce.chatter;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.salesforce.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=com.salesforce.chatter;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.salesforce.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.force.com/axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=com.salesforce.chatter;end
+*IOS 1* 
+ intent://#Intent;package=com.salesforce.chatter;scheme=*.force.com://axm/detect/oauth/done;end
+*IOS 2* 
+ intent://axm/detect/oauth/done#Intent;package=com.salesforce.chatter;scheme=*.force.com;end
+############################################################################

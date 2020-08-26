@@ -1,0 +1,3 @@
+package = 'com.woolworths'
+scheme = 'com.woolworths.braintree'
+mimeType = 'application/com.woolworths.scango'

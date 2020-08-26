@@ -1,6 +1,0 @@
-package = 'com.greyhound.mobile.consumer'
-host = 'greyhound.com'
-scheme = 'https'
-host = '@string/dynamic_link_prefix'
-path = '/app'
-scheme = 'https'

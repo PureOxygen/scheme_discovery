@@ -1,0 +1,7 @@
+package = 'com.dow.singsys.dow'
+host = 'open.doctorworld'
+scheme = 'app'
+scheme = '@string/deeplink_sheme'
+scheme = '@string/fb_login_protocol_scheme'
+host = 'cct.com.dow.singsys.dow'
+scheme = 'fbconnect'

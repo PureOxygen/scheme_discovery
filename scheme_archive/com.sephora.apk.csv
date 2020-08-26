@@ -1,0 +1,1000 @@
+package = 'com.sephora'
+host = 'trk.s.sephora.com'
+pathPattern = '/uni/.*'
+scheme = 'http'
+host = 'trk.s.sephora.com'
+pathPattern = '/uni/.*'
+scheme = 'https'
+host = '*'
+pathPattern = '.*'
+scheme = 'sephoraapp'
+host = 'www.sephora.com'
+scheme = 'http'
+host = 'www.sephora.com'
+pathPattern = '..*'
+scheme = 'http'
+host = 'www.sephora.ca'
+scheme = 'http'
+host = 'www.sephora.ca'
+pathPattern = '..*'
+scheme = 'http'
+host = 'm.sephora.com'
+scheme = 'http'
+host = 'm.sephora.ca'
+scheme = 'http'
+host = 'www.sephora.com'
+scheme = 'https'
+host = 'www.sephora.com'
+pathPattern = '..*'
+scheme = 'https'
+host = 'www.sephora.ca'
+scheme = 'https'
+host = 'www.sephora.ca'
+pathPattern = '..*'
+scheme = 'https'
+host = 'm.sephora.com'
+scheme = 'https'
+host = 'm.sephora.ca'
+scheme = 'https'
+host = 'sephora.app.link'
+pathPattern = '..*'
+scheme = 'http'
+host = 'app.sephora.com'
+pathPattern = '..*'
+scheme = 'http'
+host = 'sephora.app.link'
+pathPattern = '..*'
+scheme = 'https'
+host = 'app.sephora.com'
+pathPattern = '..*'
+scheme = 'https'
+host = '*'
+scheme = 'com.adobe.targetmobile'
+host = 'screens/basket'
+scheme = 'sephoraapp'
+scheme = 'tagmanager.c.com.sephora'
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket/uni/.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket.*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket..*#Intent;package=com.sephora;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket/uni/.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket.*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket..*#Intent;package=com.sephora;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket/uni/.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket.*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket..*#Intent;package=com.sephora;scheme=sephoraapp;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket/uni/.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket.*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket..*#Intent;package=com.sephora;scheme=com.adobe.targetmobile;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://trk.s.sephora.com..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=trk.s.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=trk.s.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=*:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=*;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.com..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.sephora.ca..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=www.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=www.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.com..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.sephora.ca..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=m.sephora.ca:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=m.sephora.ca;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sephora.app.link..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=sephora.app.link:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=sephora.app.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.sephora.com..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=app.sephora.com:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=app.sephora.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket/uni/.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket://uni/.*;end
+*IOS 2* 
+ intent://uni/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket.*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://screens/basket..*#Intent;package=com.sephora;scheme=tagmanager.c.com.sephora;end
+*IOS 1* 
+ intent://#Intent;package=com.sephora;scheme=screens/basket:/..*;end
+*IOS 2* 
+ intent:/..*#Intent;package=com.sephora;scheme=screens/basket;end
+############################################################################

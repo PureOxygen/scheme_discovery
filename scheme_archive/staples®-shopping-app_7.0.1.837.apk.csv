@@ -1,0 +1,2484 @@
+package = 'app.staples'
+scheme = 'tl-a7d0f58b'
+host = 'staples.com'
+pathPrefix = '/cfa'
+scheme = 'http'
+host = 'm.staples.com'
+pathPattern = '/.*/product_.*'
+scheme = 'http'
+host = 'm.staples.com'
+pathPattern = '/.*/cat_BI.*'
+scheme = 'http'
+host = 'm.staples.com'
+pathPattern = '/.*/cat_CL.*'
+scheme = 'http'
+host = 'weeklyad.staples.com'
+pathPrefix = '/StaplesSD/WeeklyAd'
+scheme = 'http'
+host = 'staples.bttn.io'
+pathPattern = '.*'
+scheme = 'https'
+host = 'I&TFinder'
+scheme = 'staples'
+host = 'brpEnrollment'
+scheme = 'staples'
+host = 'www.staples.com'
+pathPrefix = '/deals'
+scheme = 'https'
+host = 'www.staples.com'
+pathPrefix = '/office'
+scheme = 'https'
+host = 'www.staples.com'
+pathPrefix = '/sbd'
+scheme = 'https'
+scheme = '@string/localytics_id'
+*TYPICAL INTENT* 
+ intent://staples.com/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/cfa#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/product_.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com.*#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/deals#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/office#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/sbd#Intent;package=app.staples;scheme=tl-a7d0f58b;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/cfa#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/product_.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com.*#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/deals#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/office#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/sbd#Intent;package=app.staples;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/cfa#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/product_.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com.*#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/deals#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/office#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/sbd#Intent;package=app.staples;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/cfa#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/product_.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com.*#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/deals#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/office#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/sbd#Intent;package=app.staples;scheme=staples;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.com/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://m.staples.com/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=m.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=m.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weeklyad.staples.com/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=weeklyad.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=weeklyad.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://staples.bttn.io/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=staples.bttn.io://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=staples.bttn.io;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://I&TFinder/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=I&TFinder://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=I&TFinder;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://brpEnrollment/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=brpEnrollment://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=brpEnrollment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://;end
+*IOS 2* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/cfa#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://cfa;end
+*IOS 2* 
+ intent://cfa#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/product_.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/product_.*;end
+*IOS 2* 
+ intent://.*/product_.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_BI.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_BI.*;end
+*IOS 2* 
+ intent://.*/cat_BI.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/.*/cat_CL.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://.*/cat_CL.*;end
+*IOS 2* 
+ intent://.*/cat_CL.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://StaplesSD/WeeklyAd;end
+*IOS 2* 
+ intent://StaplesSD/WeeklyAd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com.*#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com:/.*;end
+*IOS 2* 
+ intent:/.*#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/deals#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://deals;end
+*IOS 2* 
+ intent://deals#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/office#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://office;end
+*IOS 2* 
+ intent://office#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.staples.com/sbd#Intent;package=app.staples;scheme=@string/localytics_id;end
+*IOS 1* 
+ intent://#Intent;package=app.staples;scheme=www.staples.com://sbd;end
+*IOS 2* 
+ intent://sbd#Intent;package=app.staples;scheme=www.staples.com;end
+############################################################################

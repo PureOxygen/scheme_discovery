@@ -1,0 +1,1350 @@
+package = 'com.honeycommb.hq'
+mimeType = 'text/plain'
+mimeType = 'image/*'
+mimeType = 'video/*'
+mimeType = 'image/*'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/preusers/confirmation'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/preusers/confirmation'
+scheme = 'http'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/invite'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/invite'
+scheme = 'http'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/control-center'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/control-center'
+scheme = 'http'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/users'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/users'
+scheme = 'http'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/posts'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/posts'
+scheme = 'http'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/groups'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/groups'
+scheme = 'http'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/users/password/edit'
+scheme = 'https'
+host = 'hqxx.honeycommb.com'
+pathPrefix = '/users/password/edit'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/preusers/confirmation'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/preusers/confirmation'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/invite'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/invite'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/control-center'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/control-center'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/users'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/users'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/posts'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/posts'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/groups'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/groups'
+scheme = 'http'
+host = 'app.anywherehq.com'
+pathPrefix = '/users/password/edit'
+scheme = 'https'
+host = 'app.anywherehq.com'
+pathPrefix = '/users/password/edit'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/preusers/confirmation'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/preusers/confirmation'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/preusers/confirmation'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/preusers/confirmation'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/invite'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/invite'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/invite'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/invite'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/control-center'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/control-center'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/control-center'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/control-center'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/users'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/users'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/users'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/users'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/users/password/edit'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/users/password/edit'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/users/password/edit'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/users/password/edit'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/posts'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/posts'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/posts'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/posts'
+scheme = 'http'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/groups'
+scheme = 'https'
+host = 'infieldchatter.staging.honeycommb.com'
+pathPrefix = '/groups'
+scheme = 'http'
+host = '*.hcmb.us'
+pathPrefix = '/groups'
+scheme = 'https'
+host = '*.hcmb.us'
+pathPrefix = '/groups'
+scheme = 'http'
+scheme = '@string/fb_login_protocol_scheme'
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/invite#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/control-center#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/posts#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/groups#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users/password/edit#Intent;package=com.honeycommb.hq;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/invite#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/control-center#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/posts#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/groups#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users/password/edit#Intent;package=com.honeycommb.hq;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://hqxx.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=hqxx.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app.anywherehq.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=app.anywherehq.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://infieldchatter.staging.honeycommb.com/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=infieldchatter.staging.honeycommb.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://preusers/confirmation;end
+*IOS 2* 
+ intent://preusers/confirmation#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/invite#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://invite;end
+*IOS 2* 
+ intent://invite#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/control-center#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://control-center;end
+*IOS 2* 
+ intent://control-center#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users;end
+*IOS 2* 
+ intent://users#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/posts#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://posts;end
+*IOS 2* 
+ intent://posts#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/groups#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://groups;end
+*IOS 2* 
+ intent://groups#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://*.hcmb.us/users/password/edit#Intent;package=com.honeycommb.hq;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us://users/password/edit;end
+*IOS 2* 
+ intent://users/password/edit#Intent;package=com.honeycommb.hq;scheme=*.hcmb.us;end
+############################################################################

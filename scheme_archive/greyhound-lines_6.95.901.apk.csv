@@ -1,0 +1,34 @@
+package = 'com.greyhound.mobile.consumer'
+host = 'greyhound.com'
+scheme = 'https'
+host = '@string/dynamic_link_prefix'
+path = '/app'
+scheme = 'https'
+*TYPICAL INTENT* 
+ intent://greyhound.com/#Intent;package=com.greyhound.mobile.consumer;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.greyhound.mobile.consumer;scheme=greyhound.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.greyhound.mobile.consumer;scheme=greyhound.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://greyhound.com/app#Intent;package=com.greyhound.mobile.consumer;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.greyhound.mobile.consumer;scheme=greyhound.com://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.greyhound.mobile.consumer;scheme=greyhound.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/dynamic_link_prefix/#Intent;package=com.greyhound.mobile.consumer;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.greyhound.mobile.consumer;scheme=@string/dynamic_link_prefix://;end
+*IOS 2* 
+ intent://#Intent;package=com.greyhound.mobile.consumer;scheme=@string/dynamic_link_prefix;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://@string/dynamic_link_prefix/app#Intent;package=com.greyhound.mobile.consumer;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.greyhound.mobile.consumer;scheme=@string/dynamic_link_prefix://app;end
+*IOS 2* 
+ intent://app#Intent;package=com.greyhound.mobile.consumer;scheme=@string/dynamic_link_prefix;end
+############################################################################

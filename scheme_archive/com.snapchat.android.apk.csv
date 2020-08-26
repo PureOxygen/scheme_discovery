@@ -1,0 +1,1363 @@
+package = 'com.snapchat.android'
+host = 'creativekit'
+mimeType = '*/*'
+scheme = 'snapchat'
+scheme = 'snapchat'
+scheme = 'http'
+scheme = 'https'
+host = 'snapchat.com'
+host = 'www.snapchat.com'
+host = 'snapchat.onelink.me'
+host = 'click.snapchat.com'
+pathPattern = '/bitmoji/..*'
+pathPattern = '/commerce/..*'
+pathPattern = '/friending/..*'
+pathPattern = '/invite/..*'
+pathPrefix = '/add'
+pathPrefix = '/discover'
+pathPrefix = '/unlock'
+pathPrefix = '/aVHG'
+pathPrefix = '/DVYZ'
+mimeType = 'image/*'
+mimeType = 'image/*'
+mimeType = 'video/mp4'
+mimeType = 'video/mp4'
+mimeType = 'text/plain'
+host = 'preview'
+mimeType = 'snapvideo/*'
+scheme = 'snapchat'
+host = 'preview'
+mimeType = 'snapvideo/*'
+scheme = 'snapchat'
+host = 'preview'
+mimeType = 'image/*'
+scheme = 'snapchat'
+host = 'preview'
+mimeType = 'image/*'
+scheme = 'snapchat'
+host = 'camera'
+mimeType = '*/*'
+scheme = 'snapchat'
+*TYPICAL INTENT* 
+ intent://creativekit/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/friending/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/invite/..*#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/add#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/discover#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/unlock#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/aVHG#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/DVYZ#Intent;package=com.snapchat.android;scheme=snapchat;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/bitmoji/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/commerce/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/friending/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/invite/..*#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/add#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/discover#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/unlock#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/aVHG#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/DVYZ#Intent;package=com.snapchat.android;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://creativekit/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=creativekit://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=creativekit;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=www.snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=www.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://snapchat.onelink.me/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=snapchat.onelink.me;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://click.snapchat.com/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=click.snapchat.com://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=click.snapchat.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://preview/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=preview://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=preview;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/bitmoji/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://bitmoji/..*;end
+*IOS 2* 
+ intent://bitmoji/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/commerce/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://commerce/..*;end
+*IOS 2* 
+ intent://commerce/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/friending/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://friending/..*;end
+*IOS 2* 
+ intent://friending/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/invite/..*#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://invite/..*;end
+*IOS 2* 
+ intent://invite/..*#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/add#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://add;end
+*IOS 2* 
+ intent://add#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/discover#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://discover;end
+*IOS 2* 
+ intent://discover#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/unlock#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://unlock;end
+*IOS 2* 
+ intent://unlock#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/aVHG#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://aVHG;end
+*IOS 2* 
+ intent://aVHG#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://camera/DVYZ#Intent;package=com.snapchat.android;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.snapchat.android;scheme=camera://DVYZ;end
+*IOS 2* 
+ intent://DVYZ#Intent;package=com.snapchat.android;scheme=camera;end
+############################################################################
