@@ -14,11 +14,21 @@ class SpreadsheetToCsv
 
   def execute
     session = GoogleDrive::Session.from_service_account_key("sheets.json")
-    spreadsheet = session.spreadsheet_by_title("test sheet 1")
+    spreadsheet = session.spreadsheet_by_title("Apps To Add")
     worksheet = spreadsheet.worksheets.first
     worksheet.rows.first(100).each { |row|
-      @arr << "#{row[0]}, #{row[3]}, #{row[4]}, #{row[10]}"
+      next if row.include? "App Name"
+      @arr << "#{row[0]},#{row[3]},#{row[4]},#{row[10]}"
       puts @arr }
-    binding.irb
+    add_to_csv
+  end
+
+  def add_to_csv
+    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery")
+    File.open("app_data.csv", "wb") do |f|
+      @arr.each do |row|
+        f.puts row
+      end
+    end
   end
 end

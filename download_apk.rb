@@ -19,10 +19,15 @@ class DownloadApk
 
   def get_store_link
     @download_count = 0
-    File.open("play_store_links.csv","r").readlines.each do |line|
-      google_play_link = line.split(/\n/).first
-      @download_count += 1
-      download_apk(google_play_link)
+    File.open("app_data.csv","r").readlines.each do |line|
+      begin
+        google_play_link = line.split(',')[2]
+        @download_count += 1
+        download_apk(google_play_link)
+      rescue => e
+        puts "#{e}"
+        next
+      end
     end
     confirm_downloads_finished
   end

@@ -1,0 +1,2045 @@
+package = 'com.streetvoice.streetvoice'
+scheme = '@string/fb_login_protocol_scheme'
+scheme = 'streetvoice'
+host = 'developer.streetvoice.com'
+host = 'weblinknavigator'
+scheme = 'streetvoice'
+scheme = 'streetvoice'
+host = 'song'
+host = 'playlist'
+host = 'album'
+host = 'user'
+host = 'view'
+host = 'playlist_section'
+host = 'venue_activity'
+host = 'opportunity'
+host = 'announcement'
+host = 'comment'
+scheme = 'http'
+scheme = 'https'
+host = 'tw.streetvoice.com'
+host = 'www.streetvoice.com'
+host = 'streetvoice.com'
+pathPattern = '..*/songs/..*'
+pathPattern = '..*/songs/playlist/..*'
+pathPattern = '..*/playlists/..*'
+host = 'instabug-disclaimer.com'
+scheme = 'instabug-bug'
+host = 'instabug-disclaimer.com'
+scheme = 'repro-steps-disclaimer'
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=@string/fb_login_protocol_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-bug;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://developer.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=developer.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://weblinknavigator..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=weblinknavigator;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://song..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=song:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=song;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://album..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=album:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=album;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://user..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=user:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=user;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://view..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=view:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=view;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://playlist_section..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=playlist_section;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://venue_activity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=venue_activity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://opportunity..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=opportunity:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=opportunity;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://announcement..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=announcement:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=announcement;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://comment..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=comment:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=comment;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://tw.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=tw.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=www.streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://streetvoice.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=streetvoice.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/..*;end
+*IOS 2* 
+ intent:/..*/songs/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/songs/playlist/..*;end
+*IOS 2* 
+ intent:/..*/songs/playlist/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://instabug-disclaimer.com..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=repro-steps-disclaimer;end
+*IOS 1* 
+ intent://#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com:/..*/playlists/..*;end
+*IOS 2* 
+ intent:/..*/playlists/..*#Intent;package=com.streetvoice.streetvoice;scheme=instabug-disclaimer.com;end
+############################################################################

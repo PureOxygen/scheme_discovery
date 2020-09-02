@@ -1,10 +1,8 @@
 # ruby -r "./guess_links.rb" -e "GuessLinks.new.execute()"
 
 #TODO:
-# Loop through android-apps and ios-apps excluding archive folder - get names of each one, and create a csv with all of the scripts
-# Edit the scripts so they appear in order
-# Run another command that runs each row in the csv file of scripts and outputs a csv for each app
-
+# Add web domains in link guesses
+# gsub * with 'm' or something different
 
 require 'rubygems'
 require 'fileutils'

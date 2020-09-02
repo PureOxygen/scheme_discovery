@@ -1,0 +1,575 @@
+package = 'com.kaching.merchant'
+host = 'sumup.com'
+pathPrefix = '/payments/'
+scheme = 'sumup'
+host = 'pay'
+pathPrefix = '/1.0'
+scheme = 'sumupmerchant'
+host = 'sumup.com'
+pathPrefix = '/app/checkout'
+scheme = 'https'
+host = 'app'
+scheme = 'sumup'
+host = 'updates'
+path = '/'
+scheme = 'appcenter'
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/payments/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/1.0#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/app/checkout#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/payments/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/1.0#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/app/checkout#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/payments/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/1.0#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/app/checkout#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/payments/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/1.0#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/app/checkout#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=sumup;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/payments/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/1.0#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/app/checkout#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/payments/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/1.0#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/app/checkout#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/payments/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/1.0#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/app/checkout#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/payments/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/1.0#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/app/checkout#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=sumupmerchant;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/payments/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/1.0#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/app/checkout#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/payments/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/1.0#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/app/checkout#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/payments/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/1.0#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/app/checkout#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/payments/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/1.0#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/app/checkout#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/payments/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/1.0#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/app/checkout#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sumup.com/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=sumup.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/payments/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/1.0#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/app/checkout#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://pay/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=pay;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/payments/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/1.0#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/app/checkout#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://app/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=app;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/payments/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://payments/;end
+*IOS 2* 
+ intent://payments/#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/1.0#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://1.0;end
+*IOS 2* 
+ intent://1.0#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/app/checkout#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://app/checkout;end
+*IOS 2* 
+ intent://app/checkout#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://updates/#Intent;package=com.kaching.merchant;scheme=appcenter;end
+*IOS 1* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates://;end
+*IOS 2* 
+ intent://#Intent;package=com.kaching.merchant;scheme=updates;end
+############################################################################

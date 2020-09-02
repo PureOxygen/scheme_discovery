@@ -1,0 +1,3 @@
+package = 'com.apprisemobile.denso'
+host = 'home'
+scheme = 'denso'

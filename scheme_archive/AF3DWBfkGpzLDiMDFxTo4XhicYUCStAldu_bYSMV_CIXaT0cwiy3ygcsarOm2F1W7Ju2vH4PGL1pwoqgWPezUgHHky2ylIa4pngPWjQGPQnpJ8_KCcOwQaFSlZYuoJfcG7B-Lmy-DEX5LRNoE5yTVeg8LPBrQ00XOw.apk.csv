@@ -1,0 +1,36 @@
+package = 'com.qlink.myqlink'
+scheme = 'qlinkzone'
+scheme = 'mymobileaccount'
+host = 'mymobileaccount.page.link'
+pathPrefix = '/*'
+scheme = 'https'
+scheme = 'package'
+scheme = '@string/deeplink_scheme'
+*TYPICAL INTENT* 
+ intent://mymobileaccount.page.link/*#Intent;package=com.qlink.myqlink;scheme=qlinkzone;end
+*IOS 1* 
+ intent://#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link://*;end
+*IOS 2* 
+ intent://*#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mymobileaccount.page.link/*#Intent;package=com.qlink.myqlink;scheme=mymobileaccount;end
+*IOS 1* 
+ intent://#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link://*;end
+*IOS 2* 
+ intent://*#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mymobileaccount.page.link/*#Intent;package=com.qlink.myqlink;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link://*;end
+*IOS 2* 
+ intent://*#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://mymobileaccount.page.link/*#Intent;package=com.qlink.myqlink;scheme=@string/deeplink_scheme;end
+*IOS 1* 
+ intent://#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link://*;end
+*IOS 2* 
+ intent://*#Intent;package=com.qlink.myqlink;scheme=mymobileaccount.page.link;end
+############################################################################

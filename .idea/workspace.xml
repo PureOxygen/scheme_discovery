@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d15dc42b-ab20-46e7-ac0c-c97930e957a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/quickstart.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sheets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spreadsheet_to_csv.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/get_difference.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regression_tests/master_script.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web_scheme_discovery.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/play_store_links.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_scheme_discovery.rb" beforeDir="false" afterPath="$PROJECT_DIR$/android_scheme_discovery.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_apk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/download_apk.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guess_links.rb" beforeDir="false" afterPath="$PROJECT_DIR$/guess_links.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/master_script.rb" beforeDir="false" afterPath="$PROJECT_DIR$/master_script.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/app_store_links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/app_store_links.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.airbnb.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.alibaba.aliexpresshd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.apple.android.music.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.ebay.mobile.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.etsy.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.facebook.orca.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.google.android.youtube.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.hulu.plus.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.instagram.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.jetsmarter.SmartJets.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.jibjab.android.messages.fbmessenger.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.meetup.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.netflix.mediaclient.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.pinterest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.snapchat.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.spotify.music.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.thehomedepot.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.tripadvisor.tripadvisor.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.twitter.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.vkontakte.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/com.zhiliaoapp.musically.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/new/jp.naver.line.android&#10;.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/old/com.amazon.mShop.android.shopping.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/old/com.etsy.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/old/com.instagram.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/old/com.snapchat.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/csv_compare/old/com.walmart.android.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/new_versions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/new_versions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/old_versions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/old_versions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/scrape_apk.rb" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/scrape_apk.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_tests/update_diffs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/regression_tests/update_diffs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_archive/.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_archive/com.picsart.studio.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/com.picsart.studio.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_archive/official-afc-ajax-soccer-app_4.1.1.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/official-afc-ajax-soccer-app_4.1.1.apk.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scheme_data/*IOS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_data/*IOS.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/accounting-app-zoho-books_5.23.06.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/accounting-app-zoho-books_5.23.06.apk.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/com.ubercab.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/com.ubercab.apk.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scheme_data/salesforce_226.010.0.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/salesforce_226.010.0.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/canva-graphic-design-video-collage-logo-maker_2.75.0.apk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/com.picsart.studio.apk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/fybeca_3.4.7.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/fybeca_3.4.7.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scheme_data/instagram_156.0.0.26.109.apk.csv" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_archive/instagram_156.0.0.26.109.apk.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spreadsheet_to_csv.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spreadsheet_to_csv.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_keyword_scraper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/web_keyword_scraper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +64,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="797" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1680" />
+    <option name="height" value="995" />
   </component>
   <component name="ProjectId" id="1YzKzfAk6xqeGBCvtMKX9jlWxSl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,15 +93,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scheme_data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scheme_archive" />
+      <recent name="$PROJECT_DIR$/regression_tests/csv_compare" />
+      <recent name="$PROJECT_DIR$/regression_tests/apk_diffs/new" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/scheme_data" />
-      <recent name="$PROJECT_DIR$/scheme_archive" />
-      <recent name="$PROJECT_DIR$/regression_tests/csv_compare/old" />
-      <recent name="$PROJECT_DIR$/android-apps/***ARCHIVE" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scheme_data" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -122,7 +172,9 @@
       <workItem from="1597947590407" duration="8686000" />
       <workItem from="1598034060971" duration="4354000" />
       <workItem from="1598199726135" duration="6000" />
-      <workItem from="1598286245159" duration="14069000" />
+      <workItem from="1598286245159" duration="22253000" />
+      <workItem from="1598621390941" duration="115000" />
+      <workItem from="1598622802769" duration="33418000" />
     </task>
     <servers />
   </component>
@@ -130,10 +182,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1455" y="-745" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592511007294">
+    <state x="1455" y="-745" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598986435113">
       <screen x="797" y="-1057" width="1920" height="1025" />
     </state>
-    <state x="1455" y="-745" key="#com.intellij.fileTypes.FileTypeChooser/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1592511007294" />
+    <state x="1455" y="-745" key="#com.intellij.fileTypes.FileTypeChooser/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1598986435113" />
     <state x="345" y="37" key="CommitChangelistDialog2" timestamp="1594740295334">
       <screen x="0" y="23" width="1680" height="995" />
     </state>
@@ -142,11 +194,10 @@
       <screen x="797" y="-1057" width="1920" height="1025" />
     </state>
     <state x="1187" y="-931" key="SettingsEditor/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1592332506484" />
-    <state x="1248" y="-812" width="778" height="534" key="find.popup" timestamp="1595447675947">
+    <state x="1248" y="-812" width="778" height="534" key="find.popup" timestamp="1598476600792">
       <screen x="797" y="-1057" width="1920" height="1025" />
     </state>
-    <state x="1248" y="-812" width="778" height="534" key="find.popup/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1595447675947" />
-    <state x="395" y="261" width="680" height="518" key="find.popup/0.23.1680.995/-111.-1057.1920.1057@0.23.1680.995" timestamp="1589812687679" />
+    <state x="1248" y="-812" width="778" height="534" key="find.popup/-1123.-1057.1920.1057/797.-1057.1920.1025/0.23.1680.1027@797.-1057.1920.1025" timestamp="1598476600792" />
     <state x="1422" y="-830" width="670" height="676" key="search.everywhere.popup" timestamp="1598022795380">
       <screen x="797" y="-1057" width="1920" height="1025" />
     </state>

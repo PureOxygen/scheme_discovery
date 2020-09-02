@@ -1,0 +1,5 @@
+package = 'com.truckfly.truckfly'
+host = 'truckfly'
+scheme = 'truckflyapp'
+host = 'truckflyapp'
+scheme = 'https'

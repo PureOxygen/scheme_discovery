@@ -12,136 +12,87 @@ require './regression_tests/download_app.rb'
 class ScrapeApk
 
   def initialize
-    @apps = []
-    @new_apk_path = ("/Users/ericmckinney/desktop/android-regression/*new")
-    @old_apk_path = ("/Users/ericmckinney/desktop/android-regression/*old")
-    @new_csv_path = ("/Users/ericmckinney/desktop/scheme_discovery/regression_tests/csv_compare/new/")
-    @old_csv_path = ("/Users/ericmckinney/desktop/scheme_discovery/regression_tests/csv_compare/old/")
-    @download_path = ("/Users/ericmckinney/downloads")
-    @diffs_path = "/Users/ericmckinney/Desktop/scheme_discovery/regression_tests/apk_diffs"
-    @csv_array = []
+    @apk_path = ("/Users/ericmckinney/desktop/android-regression/*new")
   end
 
   def execute
-    remove_old_apks
-    remove_old_diffs
-    loop_through_newly_released
+    move_csvs
+    check_for_android_zips
+    locate_apk
+    scrape
+    add_to_new_csv
   end
 
-  def remove_old_apks
-    FileUtils.rm_rf(@old_apk_path)
-    FileUtils.mv(@new_apk_path, @old_apk_path)
-    FileUtils.mkdir(@new_apk_path)
+  def move_csvs
+    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests/csv_compare")
+    FileUtils.rm_rf("./old")
+    FileUtils.mv("./new","./old")
+    Dir.mkdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests/csv_compare/new")
   end
 
-  def loop_through_newly_released
-    Dir.chdir("/Users/ericmckinney/desktop/scheme_discovery/regression_tests")
-    File.open("update_diffs.csv","r").readlines.each do |line|
-      line = line unless line  == nil
-      if line[0].include?('+')
-        @app_name = line.split('id=').last.split('&').first
-        DownloadApp.new.execute(line)
-        rename_apk
-        move_apk
-        check_if_old_csv
-        check_if_new_csv
-        locate
-        scrape
-        add_to_new_csv
-        get_diff
-        clear_array
+  def check_for_android_zips
+    Dir.foreach(@apk_path) do |folder|
+      if folder.include? '.zip'
+        extract_zip(folder, @apk_path)
       end
-    end
-  end
-
-  def rename_apk
-    Dir.chdir(@download_path)
-    #ext_name = @download_name.split('.').last
-    @download_name = Dir.glob(File.join(@download_path, '*.*')).max { |a,b| File.ctime(a) <=> File.ctime(b) }
-    @ext = @download_name.split('.').last
-    FileUtils.mv(@download_name, @download_path + '/' + @app_name + '.' + @ext )
-  end
-
-  def move_apk
-    @app_path = @new_apk_path + '/' + @app_name + '.' + @ext
-    FileUtils.mv(@download_path + '/' + @app_name + '.' + @ext, @new_apk_path)
-  end
-
-  # Finds the zip and converts it to an .apk using extract_zip IF it is a .zip file
-  def locate
-    Dir.chdir(@new_apk_path)
-      if @app_path.include? '.zip'
-        @zip_dest = @app_path.gsub('.zip','')
-        extract_zip(@app_path, @zip_dest)
-        sleep(2)
     end
   end
 
   def extract_zip(file, destination)
-    FileUtils.mkdir_p(destination)
-    Zip::File.open(file) do |zip_file|
-      zip_file.each do |f|
-        f_path=File.join(destination, f.name)
-        zip_file.extract(f, f_path) unless File.exist?(f_path)
+    begin
+      FileUtils.mkdir_p(destination)
+      file = "#{destination}/#{file}"
+      Zip::File.open(file) do |zip_file|
+        zip_file.each do |f|
+
+          fpath = File.join(destination, f.name)
+          FileUtils.mkdir_p(File.dirname(fpath))
+          zip_file.extract(f, fpath) unless File.exist?(fpath)
+          zip_file.delete
+        end
+      rescue => e
+        "Error: #{e}"
       end
     end
   end
 
-  def check_if_old_csv
-    Dir.chdir(@old_csv_path)
-    file = File.join(@old_csv_path, @app_name + ".csv")
-    if File.exists?(file)
-      File.delete(file)
-    end
-  end
-
-  def check_if_new_csv
-    Dir.chdir(@new_csv_path)
-    @app_name = @app_name.chomp
-    file = File.join(@new_csv_path, @app_name + ".csv")
-    if File.exist?(file)
-      FileUtils.mv(@new_csv_path + @app_name + ".csv", @old_csv_path + @app_name + ".csv")
+  def locate_apk
+    Dir.chdir(@apk_path)
+    Dir.foreach(@apk_path) do |folder|
+      next if folder == '.' or folder == '..' or folder.include? '.DS_Store' or folder.include? '.apk'
     end
   end
 
   def scrape
-    #begin
-      @app_path = Dir.glob(File.join(@new_apk_path, '*.*')).max { |a,b| File.ctime(a) <=> File.ctime(b) }
-      Dir.chdir(@new_apk_path)
-      #Dir.foreach(@new_apk_path) do |folder|
+    begin
+      Dir.chdir(@apk_path)
+      Dir.foreach(@apk_path) do |folder|
+        next unless folder.include? '.apk'
 
-        #next if folder == '.' || folder == ".."
-        if @app_path.include?(".apk")
+        @apk_name = folder
+        Dir.chdir(@apk_path)
 
-          scrape_manifest
+        system "apktool d #{@apk_path}/#{@apk_name}"
 
-        else
-          Dir.foreach(@app_path) do |sub_folder|
-            #next unless sub_folder.include?(@app_name) && sub_folder.include?(".apk")
-            #@apk = folder + '/' + sub_folder
+        scrape_manifest
+        add_to_new_csv
 
-            binding.irb
-            scrape_manifest
-            
-          end
-        #end
-      #rescue => e
-      #  puts "Error: #{e}"
-      #
-      #end
+      rescue => e
+        puts "Error: #{e}"
+
+      end
     end
   end
 
   def scrape_manifest
-    # is this looking for the path if it is a sub_folder?
-    Dir.chdir(@new_apk_path)
-    binding.irb
-    system "apktool d #{@app_path} -f --no-res"
-    manifest_file_name = "#{@app_path}".gsub(".apk","")
+    manifest_file_name = "#{@apk_path}/#{@apk_name}".gsub(".apk","")
     Dir.chdir(manifest_file_name)
-    sleep(5)
+
     doc = Nokogiri.parse(File.read("AndroidManifest.xml"))
     filterData = "intent-filter.data."
+
+    @csv_array = []
+
     package_name = doc.search("manifest").each do |i|
       i.each do |att_name, att_value|
         if att_name.include? "package"
@@ -155,7 +106,7 @@ class ScrapeApk
 
     android_keywords = doc.search("data").each do |i|
       i.each do |att_name, att_value|
-        links = "#{att_name}= '#{att_value}'"
+        links = "#{att_name} = '#{att_value}'"
         puts "#"*100
         @csv_array << links
         puts links
@@ -164,39 +115,22 @@ class ScrapeApk
   end
 
   def add_to_new_csv
-    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests")
-    File.open("./csv_compare/new/#{@app_name}.csv", "wb") do |f|
+    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests/csv_compare/new")
+    @full_path = "#{@apk_name}.csv"
+    File.open("#{@apk_name}.csv", "wb") do |f|
       @csv_array.each do |row|
         f.puts row
       end
     end
   end
 
-  def remove_old_diffs
-    FileUtils.rm_rf(@diffs_path)
-    Dir.mkdir(@diffs_path)
+  def csv_name
+    return @full_path
   end
 
-  def get_diff
-    Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery/regression_tests/csv_compare")
-    Dir.foreach("./new") do |new|
-      next unless new.include?(@app_name)
-
-      Dir.foreach("old") do |old|
-        next unless old.include?(@app_name)
-        if File.exists?(@old_csv_path + "/" + "#{old}") && File.exists?(@new_csv_path + "/" + "#{new}")
-        #if FileUtils.identical?(@old_csv_path + "/" + "#{old}", @new_csv_path + "/" + "#{new}")
-          File.open(@diffs_path + '/' + new, "wb") do |csv|
-            csv.puts Diffy::Diff.new("old/" + old,"new/" + new, :source => 'files', :allow_empty_diff => false)
-          end
-          else puts "This is new to the test - no older version to compare with."
-        end
-      end
-    end
-  end
-
-  def clear_array
-    @csv_array.clear
+  # TODO: Delete apps in both `ios-apps` and `android-apps` directories.
+  def run_ios_script
+    IosSchemeDiscovery.new(@full_path).execute
   end
 end
 

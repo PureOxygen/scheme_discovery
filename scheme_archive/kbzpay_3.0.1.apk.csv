@@ -1,0 +1,21 @@
+package = 'com.kbzbank.kpaycustomer'
+host = 'kbzpay.com'
+pathPrefix = '/openApp'
+scheme = 'kbzpay'
+host = 'kbzpay.com'
+pathPrefix = '/openPWA'
+scheme = 'kbzpay'
+*TYPICAL INTENT* 
+ intent://kbzpay.com/openApp#Intent;package=com.kbzbank.kpaycustomer;scheme=kbzpay;end
+*IOS 1* 
+ intent://#Intent;package=com.kbzbank.kpaycustomer;scheme=kbzpay.com://openApp;end
+*IOS 2* 
+ intent://openApp#Intent;package=com.kbzbank.kpaycustomer;scheme=kbzpay.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://kbzpay.com/openPWA#Intent;package=com.kbzbank.kpaycustomer;scheme=kbzpay;end
+*IOS 1* 
+ intent://#Intent;package=com.kbzbank.kpaycustomer;scheme=kbzpay.com://openPWA;end
+*IOS 2* 
+ intent://openPWA#Intent;package=com.kbzbank.kpaycustomer;scheme=kbzpay.com;end
+############################################################################

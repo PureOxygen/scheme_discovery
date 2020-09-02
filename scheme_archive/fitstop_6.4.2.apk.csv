@@ -1,0 +1,3 @@
+package = 'com.fitstop.app'
+host = 'cct.com.fitstop.app'
+scheme = 'fbconnect'
