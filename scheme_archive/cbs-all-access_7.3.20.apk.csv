@@ -1,0 +1,37 @@
+package = 'com.cbs.ott'
+host = 'www.cbs.com'
+scheme = 'cbs'
+host = 'http'
+scheme = 'cbs'
+host = 'https'
+scheme = 'cbs'
+host = 'www.cbs.com'
+scheme = 'cbs-svod'
+host = 'http'
+scheme = 'cbs-svod'
+host = 'www.cbs.com'
+scheme = 'http'
+host = 'www.cbs.com'
+scheme = 'https'
+scheme = 'tl-d8c7ac87'
+scheme = 'https'
+host = '@string/redirect_uri'
+scheme = 'adobepass'
+web_domain = 'cbs'
+ext = '.com'
+scheme = 'http'
+scheme = 'https'
+############################################################################
+*HTTP - With extension* 
+ intent://cbs.tv/#Intent;package=com.cbs.ott;scheme=http;end
+*HTTP - With WWW.* 
+ intent://www.cbs.tv/#Intent;package=com.cbs.ott;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+ intent://https://www.cbs.tv/#Intent;package=com.cbs.ott;scheme=http;end
+############################################################################
+*HTTPS - With extension* 
+ intent://cbs.tv/#Intent;package=com.cbs.ott;scheme=https;end
+*HTTPS - With WWW.* 
+ intent://www.cbs.tv/#Intent;package=com.cbs.ott;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+ intent://https://www.cbs.tv/#Intent;package=com.cbs.ott;scheme=https;end

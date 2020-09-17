@@ -1,0 +1,64 @@
+package = 'com.hualai'
+scheme = 'com.hualai.braintree'
+host = 'wyzeapp'
+path = '/v2'
+port = '8080'
+scheme = 'wyze'
+host = 'com.hualai'
+scheme = 'amzn'
+*############################################################################
+*HTTP - With extension* 
+intent:///#Intent;package=com.hualai;scheme=http;end
+*HTTP - With WWW.* 
+intent://www./#Intent;package=com.hualai;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www./#Intent;package=com.hualai;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent:///#Intent;package=com.hualai;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www./#Intent;package=com.hualai;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www./#Intent;package=com.hualai;scheme=https;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://wyzeapp/v2#Intent;package=com.hualai;scheme=com.hualai.braintree;end
+*IOS 1* 
+intent://#Intent;package=com.hualai;scheme=wyzeapp://v2;end
+*IOS 2* 
+intent://v2#Intent;package=com.hualai;scheme=wyzeapp;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://com.hualai/v2#Intent;package=com.hualai;scheme=com.hualai.braintree;end
+*IOS 1* 
+intent://#Intent;package=com.hualai;scheme=com.hualai://v2;end
+*IOS 2* 
+intent://v2#Intent;package=com.hualai;scheme=com.hualai;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://wyzeapp/v2#Intent;package=com.hualai;scheme=wyze;end
+*IOS 1* 
+intent://#Intent;package=com.hualai;scheme=wyzeapp://v2;end
+*IOS 2* 
+intent://v2#Intent;package=com.hualai;scheme=wyzeapp;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://com.hualai/v2#Intent;package=com.hualai;scheme=wyze;end
+*IOS 1* 
+intent://#Intent;package=com.hualai;scheme=com.hualai://v2;end
+*IOS 2* 
+intent://v2#Intent;package=com.hualai;scheme=com.hualai;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://wyzeapp/v2#Intent;package=com.hualai;scheme=amzn;end
+*IOS 1* 
+intent://#Intent;package=com.hualai;scheme=wyzeapp://v2;end
+*IOS 2* 
+intent://v2#Intent;package=com.hualai;scheme=wyzeapp;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://com.hualai/v2#Intent;package=com.hualai;scheme=amzn;end
+*IOS 1* 
+intent://#Intent;package=com.hualai;scheme=com.hualai://v2;end
+*IOS 2* 
+intent://v2#Intent;package=com.hualai;scheme=com.hualai;end

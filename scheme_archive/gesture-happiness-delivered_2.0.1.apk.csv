@@ -1,2 +1,0 @@
-package = 'com.yourgesture.gestureuser'
-scheme = '@string/fb_login_protocol_scheme'

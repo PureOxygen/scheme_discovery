@@ -1,8 +1,0 @@
-package = 'com.venmo'
-host = 'venmo.com'
-pathPrefix = '/paypal/checkoutnow'
-scheme = 'https'
-host = 'venmo.com'
-scheme = 'https'
-scheme = 'venmo'
-scheme = 'venmosdk'

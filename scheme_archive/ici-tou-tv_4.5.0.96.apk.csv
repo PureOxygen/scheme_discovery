@@ -1,4 +1,0 @@
-package = 'tv.tou.android'
-scheme = 'http'
-scheme = 'https'
-host = 'ici.tou.tv'

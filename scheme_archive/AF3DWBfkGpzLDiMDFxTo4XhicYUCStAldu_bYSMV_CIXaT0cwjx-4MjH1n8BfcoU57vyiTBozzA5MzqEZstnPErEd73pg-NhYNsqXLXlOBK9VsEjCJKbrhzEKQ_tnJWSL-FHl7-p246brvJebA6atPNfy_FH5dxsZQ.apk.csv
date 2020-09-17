@@ -1,5 +1,0 @@
-package = 'com.mitsubishimotors.mymitsubishiconnect'
-host = 'forgot-password'
-scheme = 'mmc'
-host = 'change-username'
-scheme = 'mmc'

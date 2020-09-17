@@ -1,0 +1,20 @@
+package = 'br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab'
+web_domain = 'tiocotodelivery'
+ext = '.com.br'
+scheme = 'http'
+scheme = 'https'
+
+############################################################################
+*HTTP - With extension* 
+ intent://tiocotodelivery.tv/#Intent;package=br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab;scheme=http;end
+*HTTP - With WWW.* 
+ intent://www.tiocotodelivery.tv/#Intent;package=br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+ intent://https://www.tiocotodelivery.tv/#Intent;package=br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab;scheme=http;end
+############################################################################
+*HTTPS - With extension* 
+ intent://tiocotodelivery.tv/#Intent;package=br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab;scheme=https;end
+*HTTPS - With WWW.* 
+ intent://www.tiocotodelivery.tv/#Intent;package=br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+ intent://https://www.tiocotodelivery.tv/#Intent;package=br.com.app.gpu2421350.gpubc6f07b2fd66102d1c28aa6d2839e4ab;scheme=https;end

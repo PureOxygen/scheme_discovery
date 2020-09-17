@@ -1,4 +1,0 @@
-package = 'com.ourpact.androidparent'
-scheme = '@string/fb_login_protocol_scheme'
-host = 'cct.com.ourpact.androidparent'
-scheme = 'fbconnect'

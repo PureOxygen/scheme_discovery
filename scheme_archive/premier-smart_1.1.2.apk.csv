@@ -1,3 +1,0 @@
-package = 'com.premier.smart'
-scheme = '@string/tuya_jump_scheme'
-scheme = '@string/fbAppSecret'

@@ -1,4 +1,0 @@
-package = 'deliveras.main'
-scheme = '@string/fb_login_protocol_scheme'
-scheme = 'deliveras.main.braintree'
-scheme = 'tagmanager.c.deliveras.main'

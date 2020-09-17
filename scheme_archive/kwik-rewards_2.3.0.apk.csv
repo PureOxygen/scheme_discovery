@@ -1,5 +1,0 @@
-package: com.kwiktrip
-scheme: @string/deeplink_schema
-iOS: com.okta.applicationclientid
-iOS: fb2089152167985575
-iOS: kwikrewards

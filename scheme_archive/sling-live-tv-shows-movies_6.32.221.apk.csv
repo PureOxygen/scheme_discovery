@@ -1,0 +1,139 @@
+package = 'com.sling'
+host = 'sling.com'
+scheme = 'slingtv'
+host = 'play'
+scheme = 'slingtv'
+host = 'navigate'
+scheme = 'slingtv'
+host = 'watch.sling.com'
+scheme = 'https'
+host = 'watch.sling.com'
+scheme = 'http'
+host = 'watch.sling.com'
+scheme = 'slingtv'
+host = 'cast.sling.com'
+path = '/join'
+scheme = 'slingtv'
+web_domain = 'sling'
+ext = '.com'
+scheme = 'http'
+scheme = 'https'
+############################################################################
+*HTTP - With extension* 
+ intent://sling.tv/#Intent;package=com.sling;scheme=http;end
+*HTTP - With WWW.* 
+ intent://www.sling.tv/#Intent;package=com.sling;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+ intent://https://www.sling.tv/#Intent;package=com.sling;scheme=http;end
+############################################################################
+*HTTPS - With extension* 
+ intent://sling.tv/#Intent;package=com.sling;scheme=https;end
+*HTTPS - With WWW.* 
+ intent://www.sling.tv/#Intent;package=com.sling;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+ intent://https://www.sling.tv/#Intent;package=com.sling;scheme=https;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sling.com/join#Intent;package=com.sling;scheme=slingtv;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://play/join#Intent;package=com.sling;scheme=slingtv;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=play://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=play;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://navigate/join#Intent;package=com.sling;scheme=slingtv;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=navigate://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=navigate;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://watch.sling.com/join#Intent;package=com.sling;scheme=slingtv;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=watch.sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=watch.sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cast.sling.com/join#Intent;package=com.sling;scheme=slingtv;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=cast.sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=cast.sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sling.com/join#Intent;package=com.sling;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://play/join#Intent;package=com.sling;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=play://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=play;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://navigate/join#Intent;package=com.sling;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=navigate://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=navigate;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://watch.sling.com/join#Intent;package=com.sling;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=watch.sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=watch.sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cast.sling.com/join#Intent;package=com.sling;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=cast.sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=cast.sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://sling.com/join#Intent;package=com.sling;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://play/join#Intent;package=com.sling;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=play://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=play;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://navigate/join#Intent;package=com.sling;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=navigate://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=navigate;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://watch.sling.com/join#Intent;package=com.sling;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=watch.sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=watch.sling.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://cast.sling.com/join#Intent;package=com.sling;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.sling;scheme=cast.sling.com://join;end
+*IOS 2* 
+ intent://join#Intent;package=com.sling;scheme=cast.sling.com;end

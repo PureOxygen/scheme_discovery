@@ -1,4 +1,0 @@
-package = 'com.movo.movo'
-scheme = 'movo'
-scheme = '@string/facebook_login_protocol_scheme'
-scheme = 'adyencheckout'

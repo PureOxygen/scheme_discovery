@@ -1,6 +1,0 @@
-package = 'com.hsn.android'
-scheme = '@string/LOCALYTICS_TEST_API_APP_KEY'
-scheme = 'hsnapp'
-scheme = 'tagmanager.c.com.hsn.android'
-path = 'com.hsn.android'
-scheme = 'package'

@@ -1,7 +1,0 @@
-package = 'com.ubisoft.uplay'
-host = 'redirect'
-scheme = 'com.ubisoft.uplay.scecompcall'
-host = 'auth'
-scheme = 'ms-xal-000000004835a3a1'
-host = 'cct.com.ubisoft.uplay'
-scheme = 'fbconnect'

@@ -1,5 +1,0 @@
-package = 'com.untappdllc.app'
-scheme = 'untappd'
-host = ' '
-pathPrefix = '/'
-scheme = ' '

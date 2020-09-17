@@ -1,0 +1,75 @@
+package = 'net.omobio.robisc'
+scheme = '@string/fb_login_protocol_scheme'
+host = 'f8uqp.app.goo.gl'
+scheme = 'http'
+host = 'f8uqp.app.goo.gl'
+scheme = 'https'
+host = '@string/fb_host_all_applications'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_customer_care'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_internet_pack'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_buy_tickets'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_robi_shop'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_vas'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_my_offer'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_bundle'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_goongoon'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_balance_transfer'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_recharge'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_my_plan'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_call_history'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_sports'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_roaming'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_namaz_timing'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_news'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_weather'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_robi_club'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_special_offer'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_lifestyle'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_e_bill'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_gamification'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_buy_pack'
+scheme = '@string/fb_deep_link_scheme'
+host = '@string/fb_host_family_plan'
+scheme = '@string/fb_deep_link_scheme'
+web_domain = 'robi'
+ext = '.com.bd'
+scheme = 'http'
+scheme = 'https'
+web scraper = []
+*############################################################################
+*HTTP - With extension* 
+intent://robi/#Intent;package=net.omobio.robisc;scheme=http;end
+*HTTP - With WWW.* 
+intent://www.robi.com.bd/#Intent;package=net.omobio.robisc;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www.robi.com.bd/#Intent;package=net.omobio.robisc;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent://robi.com.bd/#Intent;package=net.omobio.robisc;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www.robi.com.bd/#Intent;package=net.omobio.robisc;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www.robi.com.bd/#Intent;package=net.omobio.robisc;scheme=https;end

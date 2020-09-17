@@ -1,0 +1,15 @@
+package = 'com.wiftapp.wiftcustomer'
+*############################################################################
+*HTTP - With extension* 
+intent:///#Intent;package=com.wiftapp.wiftcustomer;scheme=http;end
+*HTTP - With WWW.* 
+intent://www./#Intent;package=com.wiftapp.wiftcustomer;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www./#Intent;package=com.wiftapp.wiftcustomer;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent:///#Intent;package=com.wiftapp.wiftcustomer;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www./#Intent;package=com.wiftapp.wiftcustomer;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www./#Intent;package=com.wiftapp.wiftcustomer;scheme=https;end

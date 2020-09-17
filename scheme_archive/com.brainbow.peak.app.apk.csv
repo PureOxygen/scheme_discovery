@@ -1,5 +1,0 @@
-package = 'com.brainbow.peak.app'
-scheme = 'peak'
-scheme = '@string/fb_login_protocol_scheme'
-scheme = 'com.brainbow.peak.app.braintree'
-scheme = 'lineauth'

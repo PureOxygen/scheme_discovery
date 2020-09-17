@@ -1,8 +1,8 @@
-# gather updated versions
+# ruby -r "./regression_tests/master_script.rb" -e "MasterScript.new.execute()"
 
 class MasterScript
 
-  def ex
+  def execute
     puts "Get latest update information"
     system 'ruby -r "./regression_tests/get_versions.rb" -e "GetVersions.new.execute()"'
 
@@ -12,5 +12,7 @@ class MasterScript
     puts "Scraping app for schemes..."
     system 'ruby -r "./regression_tests/scrape_apk.rb" -e "ScrapeApk.new.execute()"'
 
+    puts "Getting the difference..."
+    system 'ruby -r "./regression_tests/get_difference.rb" -e "GetDifference.new.execute()"'
   end
 end

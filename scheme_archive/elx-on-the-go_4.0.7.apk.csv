@@ -1,4 +1,0 @@
-package = 'com.elc.elx'
-host = 'updates'
-path = '/'
-scheme = 'appcenter'

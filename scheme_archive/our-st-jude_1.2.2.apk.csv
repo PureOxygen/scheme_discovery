@@ -1,4 +1,0 @@
-package = 'org.stjude.patientexperience'
-scheme = 'package'
-host = 'stjude'
-iOS = 'msal7cd39d33-6c92-4bed-9ee7-7c4233143a61'

@@ -1,8 +1,0 @@
-package = 'com.foodpicasso.burgerhub'
-path = 'oauthredirect'
-scheme = 'com.foodpicasso.burgerhub'
-scheme = 'expo.modules.payments.stripe.7642946c-9b62-4cbb-b067-b3c24e498d6c'
-scheme = 'abi37_0_0.expo.modules.payments.stripe'
-scheme = 'abi36_0_0.expo.modules.payments.stripe'
-scheme = 'abi35_0_0.expo.modules.payments.stripe'
-scheme = 'abi34_0_0.expo.modules.payments.stripe'

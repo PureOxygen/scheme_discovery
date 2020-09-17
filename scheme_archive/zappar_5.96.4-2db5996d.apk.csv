@@ -1,4 +1,0 @@
-package = 'com.zappar.Zappar'
-host = 'zpr.link'
-scheme = 'https'
-scheme = 'zappar'

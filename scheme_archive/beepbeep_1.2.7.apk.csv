@@ -1,8 +1,0 @@
-package = 'br.com.beepbeep'
-path = 'oauthredirect'
-scheme = 'br.com.beepbeep'
-scheme = 'expo.modules.payments.stripe.751cbcfa-ff6b-4c7d-bae6-3b4677001cee'
-scheme = 'abi38_0_0.expo.modules.payments.stripe'
-scheme = 'abi37_0_0.expo.modules.payments.stripe'
-scheme = 'abi36_0_0.expo.modules.payments.stripe'
-scheme = 'abi35_0_0.expo.modules.payments.stripe'

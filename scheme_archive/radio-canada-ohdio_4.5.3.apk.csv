@@ -1,7 +1,0 @@
-package = 'rc.appradio.android'
-scheme = 'http'
-scheme = 'https'
-host = 'ohdio.radio-canada.ca'
-host = 'ici.radio-canada.ca'
-pathPrefix = '/ohdio'
-scheme = 'tagmanager.c.rc.appradio.android'

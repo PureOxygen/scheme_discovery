@@ -1,7 +1,0 @@
-package = 'com.ozy.pdb'
-path = 'oauthredirect'
-scheme = 'com.ozy.pdb'
-scheme = 'expo.modules.payments.stripe.08fdab1e-121c-4d98-81ae-3c2403068ea1'
-scheme = 'abiabi35_0_0.expo.modules.payments.stripe'
-scheme = 'abi34_0_0.expo.modules.payments.stripe'
-scheme = 'abi33_0_0.expo.modules.payments.stripe'

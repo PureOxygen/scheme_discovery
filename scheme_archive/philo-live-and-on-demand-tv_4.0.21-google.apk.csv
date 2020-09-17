@@ -1,0 +1,114 @@
+package = 'com.philo.philo.google'
+host = 'www.philo.com'
+path = '/player'
+scheme = 'https'
+scheme = 'http'
+scheme = 'https'
+host = 'www.philo.com'
+pathPrefix = '/player/player'
+host = 'player'
+pathPrefix = '/player/player'
+scheme = 'philo'
+web_domain = 'philo'
+ext = '.com'
+scheme = 'http'
+scheme = 'https'
+
+############################################################################
+*HTTP - With extension* 
+ intent://philo.tv/#Intent;package=com.philo.philo.google;scheme=http;end
+*HTTP - With WWW.* 
+ intent://www.philo.tv/#Intent;package=com.philo.philo.google;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+ intent://https://www.philo.tv/#Intent;package=com.philo.philo.google;scheme=http;end
+############################################################################
+*HTTPS - With extension* 
+ intent://philo.tv/#Intent;package=com.philo.philo.google;scheme=https;end
+*HTTPS - With WWW.* 
+ intent://www.philo.tv/#Intent;package=com.philo.philo.google;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+ intent://https://www.philo.tv/#Intent;package=com.philo.philo.google;scheme=https;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.philo.com/player#Intent;package=com.philo.philo.google;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=www.philo.com://player;end
+*IOS 2* 
+ intent://player#Intent;package=com.philo.philo.google;scheme=www.philo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.philo.com/player/player#Intent;package=com.philo.philo.google;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=www.philo.com://player/player;end
+*IOS 2* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=www.philo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=player://player;end
+*IOS 2* 
+ intent://player#Intent;package=com.philo.philo.google;scheme=player;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://player/player/player#Intent;package=com.philo.philo.google;scheme=https;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=player://player/player;end
+*IOS 2* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=player;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.philo.com/player#Intent;package=com.philo.philo.google;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=www.philo.com://player;end
+*IOS 2* 
+ intent://player#Intent;package=com.philo.philo.google;scheme=www.philo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.philo.com/player/player#Intent;package=com.philo.philo.google;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=www.philo.com://player/player;end
+*IOS 2* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=www.philo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=player://player;end
+*IOS 2* 
+ intent://player#Intent;package=com.philo.philo.google;scheme=player;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://player/player/player#Intent;package=com.philo.philo.google;scheme=http;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=player://player/player;end
+*IOS 2* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=player;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.philo.com/player#Intent;package=com.philo.philo.google;scheme=philo;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=www.philo.com://player;end
+*IOS 2* 
+ intent://player#Intent;package=com.philo.philo.google;scheme=www.philo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://www.philo.com/player/player#Intent;package=com.philo.philo.google;scheme=philo;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=www.philo.com://player/player;end
+*IOS 2* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=www.philo.com;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=philo;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=player://player;end
+*IOS 2* 
+ intent://player#Intent;package=com.philo.philo.google;scheme=player;end
+############################################################################
+*TYPICAL INTENT* 
+ intent://player/player/player#Intent;package=com.philo.philo.google;scheme=philo;end
+*IOS 1* 
+ intent://#Intent;package=com.philo.philo.google;scheme=player://player/player;end
+*IOS 2* 
+ intent://player/player#Intent;package=com.philo.philo.google;scheme=player;end

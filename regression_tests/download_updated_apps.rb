@@ -1,4 +1,5 @@
 # ruby -r "./regression_tests/download_updated_apps.rb" -e "DownloadUpdatedApps.new.new_apps()"  -- downloads only apps that have new versions
+#
 # ruby -r "./regression_tests/download_updated_apps.rb" -e "DownloadUpdatedApps.new.all_apps()"  -- downloads all apps in the app_store_links.csv
 
 require 'webdrivers'

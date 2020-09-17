@@ -1,6 +1,0 @@
-package = 'com.famepick.app'
-scheme = 'famepick'
-host = 'famepick.app.link'
-scheme = 'https'
-host = 'cct.com.famepick.app'
-scheme = 'fbconnect'
