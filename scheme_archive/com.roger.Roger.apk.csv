@@ -1,8 +1,0 @@
-package = 'com.roger.Roger'
-mimeType = 'image/*'
-host = 'open'
-scheme = 'roger'
-host = 'roger.app.link'
-scheme = 'https'
-host = 'roger-alternate.app.link'
-scheme = 'https'

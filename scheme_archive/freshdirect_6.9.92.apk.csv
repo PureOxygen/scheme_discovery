@@ -1,6 +1,0 @@
-package = 'com.freshdirect.android'
-scheme = 'com.freshdirect.android.braintree'
-host = 'freshdirect'
-path = '/'
-scheme = 'freshdirect'
-scheme = 'com.freshdirect.iphone'

@@ -1,5 +1,0 @@
-package = 'com.ak.app.firehouse.activity'
-host = 't4j_firehouse_subs'
-scheme = 'oauth'
-host = 'cct.com.ak.app.firehouse.activity'
-scheme = 'fbconnect'

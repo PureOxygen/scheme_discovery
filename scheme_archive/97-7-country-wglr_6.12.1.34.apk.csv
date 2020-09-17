@@ -1,3 +1,0 @@
-package = 'com.embtv.WGLRStream'
-host = 'callback'
-scheme = 'x-oauthflow-espn-twitter'

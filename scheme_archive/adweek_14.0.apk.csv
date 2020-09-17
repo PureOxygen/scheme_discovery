@@ -1,4 +1,0 @@
-package = 'com.maz.adweek'
-scheme = '@string/kLocalyticsAppKey'
-host = 'cct.com.maz.adweek'
-scheme = 'fbconnect'

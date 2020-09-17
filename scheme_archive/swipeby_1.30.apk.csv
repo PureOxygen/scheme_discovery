@@ -1,4 +1,0 @@
-package = 'com.neighborz.user'
-scheme = '@string/fb_login_protocol_scheme'
-host = 'cct.com.neighborz.user'
-scheme = 'fbconnect'

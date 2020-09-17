@@ -1,6 +1,0 @@
-package = 'com.cofedistrict'
-host = 'cofe.app'
-scheme = 'https'
-scheme = 'com.cofedistrict'
-host = 'cofeapp.com/applinks'
-scheme = 'https'

@@ -1,3 +1,0 @@
-package = 'com.wavelethealth.biostrap'
-scheme = 'branchbiostrapandroid'
-scheme = '@string/scheme_safe_trek'

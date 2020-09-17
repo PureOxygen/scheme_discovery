@@ -1,6 +1,0 @@
-package = 'com.chelseafc.the5thstand'
-scheme = 'cfcapp'
-host = 'gsapi'
-pathPrefix = '/com.chelseafc.the5thstand/login_result'
-scheme = 'gigya'
-scheme = 'lineauth'

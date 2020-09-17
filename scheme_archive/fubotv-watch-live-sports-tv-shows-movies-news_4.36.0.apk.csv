@@ -1,0 +1,286 @@
+package = 'tv.fubo.mobile'
+scheme = '@string/fb_login_protocol_scheme'
+host = 'app_open'
+scheme = 'fubotv'
+host = 'al'
+scheme = 'fubotv'
+host = 'fubotv.onelink.me'
+pathPrefix = '/GQmk'
+scheme = 'https'
+host = 'link.fubo.tv'
+pathPrefix = '/'
+scheme = 'https'
+host = 'link.fubo.tv'
+pathPrefix = '/'
+scheme = 'http'
+web_domain = 'fubo'
+ext = '.tv'
+scheme = 'http'
+scheme = 'https'
+web scraper = []
+*############################################################################
+*HTTP - With extension* 
+intent://fubo.tv/#Intent;package=tv.fubo.mobile;scheme=http;end
+*HTTP - With WWW.* 
+intent://www.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent://fubo.tv/#Intent;package=tv.fubo.mobile;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=https;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=fubotv;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/GQmk#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/GQmk#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/GQmk#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/GQmk#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/GQmk#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://app_open/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=app_open;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/GQmk#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://al/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=al;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/GQmk#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://fubotv.onelink.me/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=fubotv.onelink.me;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/GQmk#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://GQmk;end
+*IOS 2* 
+intent://GQmk#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end
+*############################################################################
+*TYPICAL INTENT* 
+intent://link.fubo.tv/#Intent;package=tv.fubo.mobile;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv://;end
+*IOS 2* 
+intent://#Intent;package=tv.fubo.mobile;scheme=link.fubo.tv;end

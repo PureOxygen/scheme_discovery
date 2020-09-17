@@ -1,6 +1,0 @@
-package = 'pedeaiuser.app'
-host = 'pedeai'
-scheme = 'pedeai'
-scheme = '@string/fb_login_protocol_scheme'
-host = 'cct.pedeaiuser.app'
-scheme = 'fbconnect'

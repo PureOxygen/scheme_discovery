@@ -1,4 +1,0 @@
-package = 'be.businessdecision.aGRealEstate.smileByWestland'
-scheme = '@string/fb_login_protocol'
-host = 'cct.be.businessdecision.aGRealEstate.smileByWestland'
-scheme = 'fbconnect'

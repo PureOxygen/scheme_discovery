@@ -1,6 +1,0 @@
-package = 'com.tvb.ott.atv.overseas.global'
-scheme = '@string/dynamic_link_scheme'
-host = '@string/dynamic_link_domain'
-scheme = 'http'
-host = '@string/dynamic_link_domain'
-scheme = 'https'

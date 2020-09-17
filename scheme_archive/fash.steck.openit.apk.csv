@@ -1,5 +1,0 @@
-package = 'fash.steck.openit'
-host = 'github.com'
-pathPrefix = '/mgks'
-scheme = 'https'
-mimeType = 'text/*'

@@ -1,8 +1,0 @@
-package = 'com.shopee.ph'
-host = 'shopee.ph'
-scheme = 'http'
-host = 'shopee.ph'
-scheme = 'https'
-scheme = 'shopeeph'
-scheme = 'tagmanager.c.com.shopee.ph'
-scheme = 'lineauth'

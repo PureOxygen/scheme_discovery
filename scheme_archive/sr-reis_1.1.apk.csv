@@ -1,0 +1,20 @@
+package = 'br.com.icriando.srreis'
+web_domain = 'srreis'
+ext = '.com.br'
+scheme = 'http'
+scheme = 'https'
+web scraper = []
+*############################################################################
+*HTTP - With extension* 
+intent://srreis.com.br/#Intent;package=br.com.icriando.srreis;scheme=http;end
+*HTTP - With WWW.* 
+intent://www.srreis.com.br/#Intent;package=br.com.icriando.srreis;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www.srreis.com.br/#Intent;package=br.com.icriando.srreis;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent://srreis.com.br/#Intent;package=br.com.icriando.srreis;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www.srreis.com.br/#Intent;package=br.com.icriando.srreis;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www.srreis.com.br/#Intent;package=br.com.icriando.srreis;scheme=https;end

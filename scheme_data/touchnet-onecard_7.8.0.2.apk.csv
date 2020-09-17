@@ -1,0 +1,64 @@
+package = 'com.touchnet.onecard.touchnetonecard'
+host = 'main'
+scheme = 'touchnetonecard'
+web_domain = 'touchnet'
+ext = '.com'
+scheme = 'http'
+scheme = 'https'
+web scraper = []
+*############################################################################
+*HTTP - With extension* 
+intent://touchnet.com/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=http;end
+*HTTP - With WWW.* 
+intent://www.touchnet.com/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www.touchnet.com/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent://touchnet.com/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www.touchnet.com/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www.touchnet.com/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=https;end
+*############################################################################
+*TYPICAL* 
+intent://main/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnetonecard;end
+*IOS 1* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=main://;end
+*IOS 2* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=main;end
+*############################################################################
+*TYPICAL* 
+intent://main/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=http;end
+*IOS 1* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=main://;end
+*IOS 2* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=main;end
+*############################################################################
+*TYPICAL* 
+intent://main/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=https;end
+*IOS 1* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=main://;end
+*IOS 2* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=main;end
+*############################################################################
+*WEB FOR HOST* 
+intent://touchnet/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnetonecard;end
+*IOS 3* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnet://;end
+*IOS 4* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnet;end
+*############################################################################
+*WEB FOR HOST* 
+intent://touchnet/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=http;end
+*IOS 3* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnet://;end
+*IOS 4* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnet;end
+*############################################################################
+*WEB FOR HOST* 
+intent://touchnet/#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=https;end
+*IOS 3* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnet://;end
+*IOS 4* 
+intent://#Intent;package=com.touchnet.onecard.touchnetonecard;scheme=touchnet;end

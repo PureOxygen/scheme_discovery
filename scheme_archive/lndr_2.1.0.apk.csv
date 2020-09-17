@@ -1,8 +1,0 @@
-package = 'com.lndr'
-host = 'lndr.page.link'
-scheme = 'http'
-scheme = 'https'
-scheme = 'message'
-scheme = 'http'
-scheme = 'https'
-scheme = 'message'

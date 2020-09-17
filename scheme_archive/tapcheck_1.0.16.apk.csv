@@ -1,0 +1,15 @@
+package = 'com.tapcheck.tapcheck'
+*############################################################################
+*HTTP - With extension* 
+intent:///#Intent;package=com.tapcheck.tapcheck;scheme=http;end
+*HTTP - With WWW.* 
+intent://www./#Intent;package=com.tapcheck.tapcheck;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+intent://https://www./#Intent;package=com.tapcheck.tapcheck;scheme=http;end
+*############################################################################
+*HTTPS - With extension* 
+intent:///#Intent;package=com.tapcheck.tapcheck;scheme=https;end
+*HTTPS - With WWW.* 
+intent://www./#Intent;package=com.tapcheck.tapcheck;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+intent://https://www./#Intent;package=com.tapcheck.tapcheck;scheme=https;end

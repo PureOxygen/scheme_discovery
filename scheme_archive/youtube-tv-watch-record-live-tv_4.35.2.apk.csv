@@ -1,0 +1,30 @@
+package = 'com.google.android.apps.youtube.unplugged'
+host = 'www.example.com'
+scheme = 'http'
+host = 'tv.youtube.com'
+scheme = 'http'
+host = 'tv.youtube.com'
+scheme = 'https'
+host = 'youtube'
+scheme = 'tv'
+host = 'oauth2redirect'
+scheme = 'com.google.android.apps.youtube.unplugged'
+web_domain = 'tv'
+ext = '.youtube.com'
+scheme = 'http'
+scheme = 'https'
+web scraper = ['vnd.youtube://tv.youtube.com/?feature=applinks']
+############################################################################
+*HTTP - With extension* 
+ intent://tv.tv/#Intent;package=com.google.android.apps.youtube.unplugged;scheme=http;end
+*HTTP - With WWW.* 
+ intent://www.tv.tv/#Intent;package=com.google.android.apps.youtube.unplugged;scheme=http;end
+*HTTP - With HTTPS:// and WWW.* 
+ intent://https://www.tv.tv/#Intent;package=com.google.android.apps.youtube.unplugged;scheme=http;end
+############################################################################
+*HTTPS - With extension* 
+ intent://tv.tv/#Intent;package=com.google.android.apps.youtube.unplugged;scheme=https;end
+*HTTPS - With WWW.* 
+ intent://www.tv.tv/#Intent;package=com.google.android.apps.youtube.unplugged;scheme=https;end
+*HTTPS - With HTTPS:// and WWW.* 
+ intent://https://www.tv.tv/#Intent;package=com.google.android.apps.youtube.unplugged;scheme=https;end

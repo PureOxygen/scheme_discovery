@@ -1,6 +1,0 @@
-package = 'com.hyvee.grocery'
-host = 'app'
-scheme = 'hyvee'
-scheme = 'message'
-scheme = 'com.hy-vee.grocery'
-iOS = 'hyvee'

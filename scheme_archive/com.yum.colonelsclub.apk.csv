@@ -1,5 +1,0 @@
-package = 'com.yum.colonelsclub'
-host = '*'
-scheme = '@string/url_scheme'
-host = 'cct.com.yum.colonelsclub'
-scheme = 'fbconnect'

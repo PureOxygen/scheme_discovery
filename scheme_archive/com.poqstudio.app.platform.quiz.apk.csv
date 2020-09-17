@@ -1,6 +1,0 @@
-package = 'com.poqstudio.app.platform.quiz'
-scheme = '@string/deeplinkScheme'
-scheme = 'tagmanager.c.com.poqstudio.app.platform.quiz'
-scheme = 'http'
-scheme = 'https'
-scheme = 'message'
