@@ -13,6 +13,23 @@ class SpreadsheetToCsv
   end
 
   def execute
+    delete_old_scheme_data
+    get_data
+    add_to_csv
+  end
+
+  def delete_old_scheme_data
+    Dir::foreach('scheme_data') do |f|
+      if f == '*IOS.csv' || f == '.' || f == '..' || f == '.DS_Store'
+        next
+      else
+        file = "scheme_data/#{f}"
+        File.delete(file)
+      end
+    end
+  end
+
+  def get_data
     session = GoogleDrive::Session.from_service_account_key("sheets.json")
     spreadsheet = session.spreadsheet_by_title("Apps To Add")
     worksheet = spreadsheet.worksheets.first

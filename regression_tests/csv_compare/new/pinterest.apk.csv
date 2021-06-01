@@ -1,4 +1,5 @@
 package = 'com.pinterest'
+mimeType = '*/*'
 mimeType = 'text/plain'
 mimeType = 'image/*'
 scheme = 'https'
