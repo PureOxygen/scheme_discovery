@@ -15,4 +15,8 @@ class MasterScript
     puts "Getting the difference..."
     system 'ruby -r "./regression_tests/get_difference.rb" -e "GetDifference.new.execute()"'
   end
+
+  def lite
+
+  end
 end

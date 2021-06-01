@@ -1,5 +1,4 @@
-# RUN FULL ON MANIFEST SCRAPE
-# ruby -r "./scheme_automation/android_scheme_discovery.rb" -e "AndroidSchemeDiscovery.new.execute()"
+# ruby -r "./scheme_automation/android_lite_scrape.rb" -e "AndroidLiteScrape.new.execute()"
 
 require 'rubygems'
 require 'fileutils'
@@ -9,7 +8,7 @@ require 'zip'
 require 'diffy'
 require './scheme_automation/web_keyword_scraper.rb'
 
-class AndroidSchemeDiscovery
+class AndroidLiteScrape
 
   def initialize
     @csv_array = []
@@ -19,6 +18,7 @@ class AndroidSchemeDiscovery
   def execute
     check_for_android_zips
     scrape
+    delete_old_apps
   end
 
   def check_for_android_zips
@@ -60,12 +60,10 @@ class AndroidSchemeDiscovery
         system "apktool d #{@apk_path}/#{@apk_name}"
 
         puts "scraping manifest"
-        scrape_manifest
+        # scrape_manifest
+        scrape_manifest_lite
         sleep(2)
 
-        puts "scraping web domain"
-        # add_web_domain
-        # scrape_web_domain
         add_to_new_csv
 
       rescue => e
@@ -75,7 +73,7 @@ class AndroidSchemeDiscovery
     end
   end
 
-  def scrape_manifest
+  def scrape_manifest_lite
     manifest_file_name = "#{@apk_path}/#{@apk_name}".gsub(".apk","")
     Dir.chdir(manifest_file_name)
 
@@ -93,44 +91,34 @@ class AndroidSchemeDiscovery
       end
     end
 
-    android_keywords = doc.search("data").each do |i|
-      i.each do |att_name, att_value|
-        links = "#{att_name} = '#{att_value}'"
-        puts "#"*100
-        @csv_array << links
-        puts links
+
+    android_keywords = doc.search("intent-filter").each do |e|
+
+      intent_data = e.children.to_s
+
+      next unless intent_data.include?('android.intent.action.VIEW')
+      next unless intent_data.include?('android.intent.category.DEFAULT')
+      next unless intent_data.include?('android.intent.category.BROWSABLE')
+
+      e.children.each do |data|
+        data.each do |att_name, att_value|
+          if att_name == "scheme"
+            scheme = "scheme = '#{att_value}'"
+            @csv_array << scheme
+          elsif att_name == "host"
+            host = "host = '#{att_value}'"
+            @csv_array << host
+          elsif att_name == "path"
+            path = "path = '#{att_value}'"
+            @csv_array << path
+          elsif att_name == "pathPrefix"
+            path_pre = "path == '#{att_value}'"
+            @csv_array << path_pre
+          end
+        end
       end
     end
   end
-
-  # def add_web_domain
-  #   File.open("../../app_data.csv","r").readlines.each do |line|
-  #     #next if line == '.' or line == '..' or line.include? '.DS_Store'
-  #     package_name = @csv_array[0].split("'").last
-  #     next unless line.include?(package_name)
-  #     domain = line.split(',')[3].chomp unless nil || ',' || ''
-  #     if domain.include?('www.')
-  #       domain = domain.gsub('www.','')
-  #     end
-  #     host = domain.split('.').first.split('/').last unless domain == ""
-  #     ext = domain.split(host).last.split('/').first unless domain == ""
-  #     @csv_array << "web_domain = '#{host}'"
-  #     @csv_array << "ext = '#{ext}'"
-  #     @csv_array << "scheme = 'http'"
-  #     @csv_array << "scheme = 'https'"
-  #   end
-  # end
-
-  # def scrape_web_domain
-  #   File.open("../../app_data.csv","r").readlines.each do |line|
-  #     next unless line.include?(@apk_name.split('-').first) || line.include?(@apk_name.split('_').first)
-  #     domain = line.split(',')[3].chomp unless nil || ',' || ''
-  #     results = WebKeywordScraper.new(domain).execute unless domain == ""
-
-  #     @csv_array << "web scraper = #{results}"
-  #     results.clear unless results == nil
-  #   end
-  # end
 
   def add_to_new_csv
     Dir.chdir("/Users/ericmckinney/Desktop/scheme_discovery")
@@ -140,11 +128,12 @@ class AndroidSchemeDiscovery
         f.puts row
       end
     end
-    @csv_array.clear unless @csv_array == nil
+    @csv_array.clear
   end
 
-  # TODO: Delete apps in both `ios-apps` and `android-apps` directories.
-  # def run_ios_script
-  #   IosSchemeDiscovery.new(@full_path).execute
-  # end
+  def delete_old_apps
+    system `rm -rf ios-apps/*`
+    system `rm -rf android-apps/*`
+  end
+  
 end
